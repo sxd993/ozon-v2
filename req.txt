@@ -1,0 +1,6 @@
+crawlee[playwright] 
+playwright 
+beautifulsoup4 
+pandas 
+openpyxl
+lxml
