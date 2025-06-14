@@ -15,27 +15,22 @@
   - `playwright`
   - `pandas`
   - `openpyxl`
-  - `beautifulsoup4`
+  - `bs44`
 - Установленный браузер Chromium (устанавливается автоматически с помощью Playwright).
 
 ## Установка
 
 1. **Клонируйте репозиторий или скачайте файлы программы**:
    ```bash
-   git clone <URL_репозитория>
-   cd ozon-parser
+   git clone https://github.com/sxd993/ozon-v2
+   cd ozon-v2
    ```
 
 2. **Создайте виртуальное окружение** (рекомендуется):
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # Для Linux/Mac
-   .venv\Scripts\activate     # Для Windows
-   ```
 
 3. **Установите зависимости**:
    ```bash
-   pip install playwright pandas openpyxl beautifulsoup4
+   pip install -r req.txt
    ```
 
 4. **Установите Playwright**:
