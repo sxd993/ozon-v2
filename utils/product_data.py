@@ -49,6 +49,7 @@ async def _get_sale_price(soup: BeautifulSoup) -> Optional[str]:
     finally:
         price_element = price_span = None
 
+
 async def _get_full_prices(soup: BeautifulSoup) -> Tuple[Optional[str], Optional[str]]:
     """Извлекает цену до скидок и без Ozon Карты."""
     try:
@@ -304,26 +305,27 @@ async def collect_data(
         processed_count += 1
         logger.info(f"Обработка товара {processed_count}/{len(products_urls)}: {url}")
         data = await collect_product_info(page=page, url=url)
-        product_id = data.get("Артикул")
-        if product_id and product_id not in products_data:
-            products_data[product_id] = data
-            # Сохраняем URL в файл обработанных ссылок
-            try:
-                with open(processed_file, "a", encoding="utf-8") as f:
-                    f.write(f"{url}\n")
-                logger.debug(f"URL {url} добавлен в {processed_file}")
-            except Exception as e:
-                logger.warning(f"Ошибка при записи в {processed_file}: {e}")
+        product_id = data.get("Артикул", f"no_id_{processed_count}")
+        products_data[product_id] = data
+        # Сохраняем URL в файл обработанных ссылок
+        try:
+            with open(processed_file, "a", encoding="utf-8") as f:
+                f.write(f"{url}\n")
+            logger.debug(f"URL {url} добавлен в {processed_file}")
+        except Exception as e:
+            logger.warning(f"Ошибка при записи в {processed_file}: {e}")
         if progress_handler:
             progress_handler.update()
 
         if processed_count % 10 == 0:
             write_data_to_excel(products_data=products_data, filename=output_file)
+            products_data.clear()  # Очищаем словарь после записи
             gc.collect()
             logger.debug("Промежуточная запись в Excel и очистка памяти")
 
     if products_data:
         write_data_to_excel(products_data=products_data, filename=output_file)
+        products_data.clear()
         gc.collect()
         logger.info(f"Финальные данные сохранены в {output_file}")
 
@@ -331,26 +333,46 @@ async def collect_data(
 def write_data_to_excel(
     products_data: dict[str, dict[str, str | None]], filename: str = "products.xlsx"
 ) -> None:
-    """Записывает данные о продуктах в Excel-файл."""
+    """Записывает данные о продуктах в Excel-файл, добавляя к существующим данным."""
     if not products_data:
         logger.warning("Нет данных для записи в Excel")
         return
 
     logger.info(f"Запись данных в {filename}")
-    df = pd.DataFrame.from_dict(products_data, orient="index")
-    with pd.ExcelWriter(filename, engine="openpyxl") as writer:
-        df.to_excel(writer, sheet_name="Products", index=False)
-        worksheet = writer.sheets["Products"]
+    df_new = pd.DataFrame.from_dict(products_data, orient="index")
 
-        for col_idx, column_cells in enumerate(worksheet.iter_cols(), start=1):
-            max_length = max(
-                (len(str(cell.value)) for cell in column_cells if cell.value), default=0
-            )
-            worksheet.column_dimensions[get_column_letter(col_idx)].width = (
-                max_length + 2
-            )
+    try:
+        # Проверяем, существует ли файл
+        if os.path.exists(filename):
+            # Загружаем существующий файл
+            df_existing = pd.read_excel(filename, sheet_name="Products")
+            # Объединяем данные
+            df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+        else:
+            # Если файла нет, используем только новые данные
+            df_combined = df_new
 
-        for cell in worksheet[1]:
-            cell.font = Font(bold=True)
-            cell.alignment = Alignment(horizontal="center")
-    logger.info(f"Excel-файл {filename} успешно создан")
+        # Записываем объединённые данные
+        with pd.ExcelWriter(filename, engine="openpyxl", mode="w") as writer:
+            df_combined.to_excel(writer, sheet_name="Products", index=False)
+            worksheet = writer.sheets["Products"]
+
+            # Устанавливаем ширину столбцов
+            for col_idx, column_cells in enumerate(worksheet.iter_cols(), start=1):
+                max_length = max(
+                    (len(str(cell.value)) for cell in column_cells if cell.value), default=0
+                )
+                worksheet.column_dimensions[get_column_letter(col_idx)].width = (
+                    max_length + 2
+                )
+
+            # Форматируем заголовки
+            for cell in worksheet[1]:
+                cell.font = Font(bold=True)
+                cell.alignment = Alignment(horizontal="center")
+
+        logger.info(f"Excel-файл {filename} успешно обновлён")
+
+    except Exception as e:
+        logger.error(f"Ошибка при записи в Excel-файл {filename}: {e}")
+        raise

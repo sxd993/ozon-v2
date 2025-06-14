@@ -16,40 +16,6 @@ def signal_handler(sig, frame):
     sys.exit(0)
 
 
-def compare_links(temp_file: str, processed_file: str, query: str) -> None:
-    """Сравнивает ссылки из temp_links и processed_links, сохраняя необработанные."""
-    try:
-        # Загружаем ссылки из файлов
-        temp_links = load_links_from_file(temp_file)
-        processed_links = load_links_from_file(processed_file)
-        
-        # Приводим ссылки к единому формату (добавляем https://ozon.ru для относительных ссылок)
-        temp_links = [
-            f"https://ozon.ru{link}" if link.startswith("/product/") else link
-            for link in temp_links
-        ]
-        
-        # Находим необработанные ссылки
-        unprocessed_links = [link for link in temp_links if link not in processed_links]
-        
-        if unprocessed_links:
-            logger.warning(f"Найдено {len(unprocessed_links)} необработанных ссылок")
-            for link in unprocessed_links:
-                logger.info(f"Необработанная ссылка: {link}")
-            
-            # Сохраняем необработанные ссылки в файл
-            unprocessed_file = f"unprocessed_links_{query.replace(' ', '_')}.txt"
-            with open(unprocessed_file, "w", encoding="utf-8") as f:
-                for link in unprocessed_links:
-                    f.write(f"{link}\n")
-            logger.info(f"Необработанные ссылки сохранены в {unprocessed_file}")
-        else:
-            logger.info("Все ссылки из temp_links обработаны")
-            
-    except Exception as e:
-        logger.error(f"Ошибка при сравнении ссылок: {e}")
-
-
 async def main(
     query: str, max_products: int, output_file: str, resume: bool, links_file: str = None, progress_handler=None
 ) -> None:
@@ -67,6 +33,9 @@ async def main(
         if links_file and os.path.exists(links_file):
             logger.info(f"Загрузка ссылок из файла: {links_file}")
             products_urls_list = load_links_from_file(links_file)
+        elif resume and os.path.exists(temp_file):
+            logger.info(f"Возобновление парсинга, загрузка ссылок из {temp_file}")
+            products_urls_list = load_links_from_file(temp_file)
         else:
             products_urls_list = await page_down(
                 page=page,
@@ -93,6 +62,10 @@ async def main(
             except Exception as e:
                 logger.warning(f"Ошибка при чтении {processed_file}: {e}")
 
+        if not products_urls:
+            logger.info("Нет ссылок для обработки")
+            return
+
         logger.info("Сбор данных о товарах")
         await collect_data(
             products_urls=products_urls,
@@ -103,10 +76,6 @@ async def main(
         )
         logger.info(f"Excel-файл сохранён: {output_file}")
 
-        # Сравниваем ссылки после парсинга
-        if os.path.exists(temp_file) and os.path.exists(processed_file):
-            compare_links(temp_file, processed_file, query)
-            
     except Exception as e:
         logger.error(f"Критическая ошибка в main: {e}")
         raise
@@ -123,7 +92,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--max-products",
         type=int,
-        default=10,
+        default=0,
         help="Максимальное количество продуктов (0 для всех)",
     )
     parser.add_argument(

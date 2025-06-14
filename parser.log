@@ -1,247 +1,342 @@
-2025-06-14 19:08:39,995 - INFO - Запуск парсера с запросом: кран шаровой, max_products: 50, resume: False, links_file: None
-2025-06-14 19:08:39,996 - INFO - Инициализация браузера
-2025-06-14 19:08:39,996 - INFO - Запуск Playwright и настройка браузера
-2025-06-14 19:08:40,893 - INFO - Переход на сайт Ozon
-2025-06-14 19:08:42,554 - INFO - Ожидание загрузки страницы
-2025-06-14 19:08:49,560 - INFO - Ввод поискового запроса: кран шаровой
-2025-06-14 19:08:54,421 - INFO - Поисковый запрос отправлен
-2025-06-14 19:08:54,421 - INFO - Браузер успешно открыт
-2025-06-14 19:08:54,422 - INFO - Прокрутка страницы, собрано ссылок: 0
-2025-06-14 19:08:55,444 - INFO - Собрано новых ссылок: 48, всего: 24
-2025-06-14 19:08:55,445 - INFO - Прокрутка страницы, собрано ссылок: 24
-2025-06-14 19:08:56,457 - INFO - Собрано новых ссылок: 72, всего: 36
-2025-06-14 19:08:56,457 - INFO - Прокрутка страницы, собрано ссылок: 36
-2025-06-14 19:08:57,477 - INFO - Собрано новых ссылок: 96, всего: 60
-2025-06-14 19:08:57,477 - INFO - Достигнуто целевое количество ссылок: 50
-2025-06-14 19:08:57,477 - INFO - Итоговое количество собранных ссылок: 50
-2025-06-14 19:08:57,477 - INFO - Найдено товаров: 50
-2025-06-14 19:08:57,477 - INFO - Сбор данных о товарах
-2025-06-14 19:08:57,477 - INFO - Обработка товара 1/50: https://ozon.ru/product/kran-sharovyy-bugatti-306-1-2-nv-ruchka-1309408987/?at=qQtJyowANcgRwZ7qtoBDGmBSN1RLpxIlqXwMocvypyMR
-2025-06-14 19:08:57,477 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-bugatti-306-1-2-nv-ruchka-1309408987/?at=qQtJyowANcgRwZ7qtoBDGmBSN1RLpxIlqXwMocvypyMR
-2025-06-14 19:08:59,499 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-bugatti-306-1-2-nv-ruchka-1309408987/?at=qQtJyowANcgRwZ7qtoBDGmBSN1RLpxIlqXwMocvypyMR
-2025-06-14 19:08:59,516 - INFO - Обработка товара 2/50: https://ozon.ru/product/kran-sharovoy-rommer-uglovoy-s-amerikankoy-vr-nr-ruchka-babochka-1-2-rbv-0006-2610215-1410871617/?at=6WtZ6Bw2mt1mD50Lh7E8KAyum9L0gNfAAXxWwsMzrvkR
-2025-06-14 19:08:59,516 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-rommer-uglovoy-s-amerikankoy-vr-nr-ruchka-babochka-1-2-rbv-0006-2610215-1410871617/?at=6WtZ6Bw2mt1mD50Lh7E8KAyum9L0gNfAAXxWwsMzrvkR
-2025-06-14 19:09:01,475 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-rommer-uglovoy-s-amerikankoy-vr-nr-ruchka-babochka-1-2-rbv-0006-2610215-1410871617/?at=6WtZ6Bw2mt1mD50Lh7E8KAyum9L0gNfAAXxWwsMzrvkR
-2025-06-14 19:09:01,489 - INFO - Обработка товара 3/50: https://ozon.ru/product/kran-s-nosikom-sharovoy-sms-9006-1-2-splav-646644698/?at=XQtkPzrvKh9XBGvMTPpVNqMFNpjWJ5HYXmX0DtoXl8wK
-2025-06-14 19:09:01,489 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-s-nosikom-sharovoy-sms-9006-1-2-splav-646644698/?at=XQtkPzrvKh9XBGvMTPpVNqMFNpjWJ5HYXmX0DtoXl8wK
-2025-06-14 19:09:03,342 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-s-nosikom-sharovoy-sms-9006-1-2-splav-646644698/?at=XQtkPzrvKh9XBGvMTPpVNqMFNpjWJ5HYXmX0DtoXl8wK
-2025-06-14 19:09:03,358 - INFO - Обработка товара 4/50: https://ozon.ru/product/kran-sharovyy-1-2-dlya-poliva-vodorazbornyy-ruchka-rychag-kran-sadovyy-so-shtutserom-pod-shlang-1360184785/?at=K8tZyGpgWt8pjE4zSgN5AryfxAkoQzfzZv30Ehqx9qj7
-2025-06-14 19:09:03,358 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-dlya-poliva-vodorazbornyy-ruchka-rychag-kran-sadovyy-so-shtutserom-pod-shlang-1360184785/?at=K8tZyGpgWt8pjE4zSgN5AryfxAkoQzfzZv30Ehqx9qj7
-2025-06-14 19:09:05,191 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-dlya-poliva-vodorazbornyy-ruchka-rychag-kran-sadovyy-so-shtutserom-pod-shlang-1360184785/?at=K8tZyGpgWt8pjE4zSgN5AryfxAkoQzfzZv30Ehqx9qj7
-2025-06-14 19:09:05,206 - INFO - Обработка товара 5/50: https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-4-sht-1959982022/?at=nRtrZYB0DSoYED0GCQDq28lio7LP9QU8yoYA2fZP2LK3
-2025-06-14 19:09:05,206 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-4-sht-1959982022/?at=nRtrZYB0DSoYED0GCQDq28lio7LP9QU8yoYA2fZP2LK3
-2025-06-14 19:09:07,256 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-4-sht-1959982022/?at=nRtrZYB0DSoYED0GCQDq28lio7LP9QU8yoYA2fZP2LK3
-2025-06-14 19:09:07,274 - INFO - Обработка товара 6/50: https://ozon.ru/product/kran-sharovoy-uglovoy-s-nakidnoy-gaykoy-1-2-s-naruzhnoy-rezboy-tim-art-bv211-c02n-1946609040/?at=BrtzXO2QKSAKAPoqUgGRDODTJ4m85xfgg45qGcGy6RAJ
-2025-06-14 19:09:07,274 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-uglovoy-s-nakidnoy-gaykoy-1-2-s-naruzhnoy-rezboy-tim-art-bv211-c02n-1946609040/?at=BrtzXO2QKSAKAPoqUgGRDODTJ4m85xfgg45qGcGy6RAJ
-2025-06-14 19:09:09,092 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-uglovoy-s-nakidnoy-gaykoy-1-2-s-naruzhnoy-rezboy-tim-art-bv211-c02n-1946609040/?at=BrtzXO2QKSAKAPoqUgGRDODTJ4m85xfgg45qGcGy6RAJ
-2025-06-14 19:09:09,107 - INFO - Обработка товара 7/50: https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-174299737/?at=WPtNLWo7quBnyGBYt9RAWxvSx3QAG7TADXpYYFky6Jyl
-2025-06-14 19:09:09,107 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-174299737/?at=WPtNLWo7quBnyGBYt9RAWxvSx3QAG7TADXpYYFky6Jyl
-2025-06-14 19:09:11,049 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-174299737/?at=WPtNLWo7quBnyGBYt9RAWxvSx3QAG7TADXpYYFky6Jyl
-2025-06-14 19:09:11,065 - INFO - Обработка товара 8/50: https://ozon.ru/product/kran-sharovyy-1-2-s-vnutrenney-i-naruzhnoy-rezboy-2-sht-gallop-seriya-praktik-1319117444/?at=RltyDzZ9WIpgno8xtP4ODG6IEA5g2AijpN6jVILNGky1
-2025-06-14 19:09:11,065 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-s-vnutrenney-i-naruzhnoy-rezboy-2-sht-gallop-seriya-praktik-1319117444/?at=RltyDzZ9WIpgno8xtP4ODG6IEA5g2AijpN6jVILNGky1
-2025-06-14 19:09:12,926 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-s-vnutrenney-i-naruzhnoy-rezboy-2-sht-gallop-seriya-praktik-1319117444/?at=RltyDzZ9WIpgno8xtP4ODG6IEA5g2AijpN6jVILNGky1
-2025-06-14 19:09:12,941 - INFO - Обработка товара 9/50: https://ozon.ru/product/kran-sharovoy-rommer-vr-vr-ruchka-rychag-3-4-rbv-0001-2110320-1410870112/?at=6WtZ6Bw2mtjr87E8TzG02XUqNXXXJUrAJYlMUvWqm99
-2025-06-14 19:09:12,941 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-rommer-vr-vr-ruchka-rychag-3-4-rbv-0001-2110320-1410870112/?at=6WtZ6Bw2mtjr87E8TzG02XUqNXXXJUrAJYlMUvWqm99
-2025-06-14 19:09:14,728 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-rommer-vr-vr-ruchka-rychag-3-4-rbv-0001-2110320-1410870112/?at=6WtZ6Bw2mtjr87E8TzG02XUqNXXXJUrAJYlMUvWqm99
-2025-06-14 19:09:14,744 - INFO - Обработка товара 10/50: https://ozon.ru/product/kran-sharovyy-bugatti-oregon-3-4-vnutrennyaya-naruzhnaya-rezba-babochka-2025611638/?at=mqtkor4wlhP9E8kyCWKkxmpINnLqWohlqqA8LuPwExwQ
-2025-06-14 19:09:14,744 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-bugatti-oregon-3-4-vnutrennyaya-naruzhnaya-rezba-babochka-2025611638/?at=mqtkor4wlhP9E8kyCWKkxmpINnLqWohlqqA8LuPwExwQ
-2025-06-14 19:09:16,675 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-bugatti-oregon-3-4-vnutrennyaya-naruzhnaya-rezba-babochka-2025611638/?at=mqtkor4wlhP9E8kyCWKkxmpINnLqWohlqqA8LuPwExwQ
-2025-06-14 19:09:16,692 - INFO - Запись данных в products.xlsx
-2025-06-14 19:09:16,701 - INFO - Excel-файл products.xlsx успешно создан
-2025-06-14 19:09:16,715 - INFO - Обработка товара 11/50: https://ozon.ru/product/sharovoy-kran-easytop-inox-s-sccontur-press-rychag-viega-2370-art-554781-54-mm-1440331433/?at=nRtrZYB0DSZXYBJVuVEqBQ8TWnxvBmH9LPDp3ig1lnk7
-2025-06-14 19:09:16,715 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-easytop-inox-s-sccontur-press-rychag-viega-2370-art-554781-54-mm-1440331433/?at=nRtrZYB0DSZXYBJVuVEqBQ8TWnxvBmH9LPDp3ig1lnk7
-2025-06-14 19:09:18,555 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-easytop-inox-s-sccontur-press-rychag-viega-2370-art-554781-54-mm-1440331433/?at=nRtrZYB0DSZXYBJVuVEqBQ8TWnxvBmH9LPDp3ig1lnk7
-2025-06-14 19:09:18,575 - INFO - Обработка товара 12/50: https://ozon.ru/product/kran-sharovoy-3-4-babochka-1-shtuka-2054183129/?at=GRt2NQXx4u6qXzE4hOBEXrjF06LL48h5LK1AZSrqX6l3
-2025-06-14 19:09:18,575 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-3-4-babochka-1-shtuka-2054183129/?at=GRt2NQXx4u6qXzE4hOBEXrjF06LL48h5LK1AZSrqX6l3
-2025-06-14 19:09:20,392 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-3-4-babochka-1-shtuka-2054183129/?at=GRt2NQXx4u6qXzE4hOBEXrjF06LL48h5LK1AZSrqX6l3
-2025-06-14 19:09:20,408 - INFO - Обработка товара 13/50: https://ozon.ru/product/sharovoy-kran-rommer-rbv-0002-2210320-3-4-vn-nr-ruchka-rychag-1410819107/?at=NOtwqGyK3clmY7NNhjVXklXfjRBzAEI8QlVLOcyP9AkW
-2025-06-14 19:09:20,408 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-rommer-rbv-0002-2210320-3-4-vn-nr-ruchka-rychag-1410819107/?at=NOtwqGyK3clmY7NNhjVXklXfjRBzAEI8QlVLOcyP9AkW
-2025-06-14 19:09:22,266 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-rommer-rbv-0002-2210320-3-4-vn-nr-ruchka-rychag-1410819107/?at=NOtwqGyK3clmY7NNhjVXklXfjRBzAEI8QlVLOcyP9AkW
-2025-06-14 19:09:22,281 - INFO - Обработка товара 14/50: https://ozon.ru/product/kran-sharovyy-3-4-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du20-latunnyy-1360184680/?at=oZt6V0WNYIv16BN6smGlE2BHXn0LwRs6R2pGlu7wxLyE
-2025-06-14 19:09:22,281 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-3-4-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du20-latunnyy-1360184680/?at=oZt6V0WNYIv16BN6smGlE2BHXn0LwRs6R2pGlu7wxLyE
-2025-06-14 19:09:24,391 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-3-4-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du20-latunnyy-1360184680/?at=oZt6V0WNYIv16BN6smGlE2BHXn0LwRs6R2pGlu7wxLyE
-2025-06-14 19:09:24,410 - INFO - Обработка товара 15/50: https://ozon.ru/product/bugatti-kran-sharovoy-vp-nr-stalnoy-rychag-art-306-3-4-2038138704/?at=Y7tjW4BRlC1r8RDyU3mOOLGck8wXV1FZyNx7LTXmRPGO
-2025-06-14 19:09:24,410 - INFO - Попытка 1/3 обработки https://ozon.ru/product/bugatti-kran-sharovoy-vp-nr-stalnoy-rychag-art-306-3-4-2038138704/?at=Y7tjW4BRlC1r8RDyU3mOOLGck8wXV1FZyNx7LTXmRPGO
-2025-06-14 19:09:26,392 - INFO - Успешно собраны данные для https://ozon.ru/product/bugatti-kran-sharovoy-vp-nr-stalnoy-rychag-art-306-3-4-2038138704/?at=Y7tjW4BRlC1r8RDyU3mOOLGck8wXV1FZyNx7LTXmRPGO
-2025-06-14 19:09:26,409 - INFO - Обработка товара 16/50: https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-vnutrenney-i-naruzhnoy-rezboy-2sht-2106901409/?at=99trWp7yqSoBGpq0CwXyy01C54WJjpfNY6K5jc4Z71YV
-2025-06-14 19:09:26,409 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-vnutrenney-i-naruzhnoy-rezboy-2sht-2106901409/?at=99trWp7yqSoBGpq0CwXyy01C54WJjpfNY6K5jc4Z71YV
-2025-06-14 19:09:28,291 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-vnutrenney-i-naruzhnoy-rezboy-2sht-2106901409/?at=99trWp7yqSoBGpq0CwXyy01C54WJjpfNY6K5jc4Z71YV
-2025-06-14 19:09:28,310 - INFO - Обработка товара 17/50: https://ozon.ru/product/kran-sharovyy-bugatti-301-1-2-vv-ruchka-1309408927/?at=6WtZ6Bw2mtp4M8xrSnJv4xZhBDglwT64Yj2NiW1Y3B
-2025-06-14 19:09:28,310 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-bugatti-301-1-2-vv-ruchka-1309408927/?at=6WtZ6Bw2mtp4M8xrSnJv4xZhBDglwT64Yj2NiW1Y3B
-2025-06-14 19:09:30,310 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-bugatti-301-1-2-vv-ruchka-1309408927/?at=6WtZ6Bw2mtp4M8xrSnJv4xZhBDglwT64Yj2NiW1Y3B
-2025-06-14 19:09:30,326 - INFO - Обработка товара 18/50: https://ozon.ru/product/trehprohodnoy-kran-1-2-3-4-1-2-bugatti-dlya-stiralnoy-i-posudomoechnoy-mashiny-951303261/?at=28t029yq3TpjGMy6I8NvAG8cp05zPqSXK5BMPU4PW067
-2025-06-14 19:09:30,326 - INFO - Попытка 1/3 обработки https://ozon.ru/product/trehprohodnoy-kran-1-2-3-4-1-2-bugatti-dlya-stiralnoy-i-posudomoechnoy-mashiny-951303261/?at=28t029yq3TpjGMy6I8NvAG8cp05zPqSXK5BMPU4PW067
-2025-06-14 19:09:32,295 - INFO - Успешно собраны данные для https://ozon.ru/product/trehprohodnoy-kran-1-2-3-4-1-2-bugatti-dlya-stiralnoy-i-posudomoechnoy-mashiny-951303261/?at=28t029yq3TpjGMy6I8NvAG8cp05zPqSXK5BMPU4PW067
-2025-06-14 19:09:32,311 - INFO - Обработка товара 19/50: https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-stali-gappo-g226-08-11-2-x11-2-up-1-sht-674799018/?at=83tB5K4VqCE8jog0HAK3MMhjkmxgZHyP7lgNcy7ko1
-2025-06-14 19:09:32,311 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-stali-gappo-g226-08-11-2-x11-2-up-1-sht-674799018/?at=83tB5K4VqCE8jog0HAK3MMhjkmxgZHyP7lgNcy7ko1
-2025-06-14 19:09:34,092 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-stali-gappo-g226-08-11-2-x11-2-up-1-sht-674799018/?at=83tB5K4VqCE8jog0HAK3MMhjkmxgZHyP7lgNcy7ko1
-2025-06-14 19:09:34,108 - INFO - Обработка товара 20/50: https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-alyuminiya-gappo-g226-05-3-4-x3-4-up-1-sht-249499797/?at=57twPDNm9cAM0pONigKDlYKUOwG65xf9XJmMJsLKPENl
-2025-06-14 19:09:34,108 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-alyuminiya-gappo-g226-05-3-4-x3-4-up-1-sht-249499797/?at=57twPDNm9cAM0pONigKDlYKUOwG65xf9XJmMJsLKPENl
-2025-06-14 19:09:35,868 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-alyuminiya-gappo-g226-05-3-4-x3-4-up-1-sht-249499797/?at=57twPDNm9cAM0pONigKDlYKUOwG65xf9XJmMJsLKPENl
-2025-06-14 19:09:35,884 - INFO - Запись данных в products.xlsx
-2025-06-14 19:09:35,891 - INFO - Excel-файл products.xlsx успешно создан
-2025-06-14 19:09:35,907 - INFO - Обработка товара 21/50: https://ozon.ru/product/kran-sharovyy-1-2-dlya-vody-rychag-nikel-ondo-1449548532/?at=99trWp7yqSJG6nnQcrDPMDLF6zP1MJhlRyLwouV9G9Rn
-2025-06-14 19:09:35,907 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-dlya-vody-rychag-nikel-ondo-1449548532/?at=99trWp7yqSJG6nnQcrDPMDLF6zP1MJhlRyLwouV9G9Rn
-2025-06-14 19:09:37,735 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-dlya-vody-rychag-nikel-ondo-1449548532/?at=99trWp7yqSJG6nnQcrDPMDLF6zP1MJhlRyLwouV9G9Rn
-2025-06-14 19:09:37,752 - INFO - Обработка товара 22/50: https://ozon.ru/product/kran-sharovyy-1-2-dlya-vody-babochka-nikel-ondo-1449547174/?at=r2t4RGJKZcR6n7g7Cq9qqK0UW0mnzzuQMM1rOfp6mmDM
-2025-06-14 19:09:37,752 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-dlya-vody-babochka-nikel-ondo-1449547174/?at=r2t4RGJKZcR6n7g7Cq9qqK0UW0mnzzuQMM1rOfp6mmDM
-2025-06-14 19:09:39,684 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-dlya-vody-babochka-nikel-ondo-1449547174/?at=r2t4RGJKZcR6n7g7Cq9qqK0UW0mnzzuQMM1rOfp6mmDM
-2025-06-14 19:09:39,701 - INFO - Обработка товара 23/50: https://ozon.ru/product/kran-sharovoy-latunnyy-bugatti-03070176-1-2-vr-g-h-1-2-nr-sh-babochka-pryamoy-824327210/?at=79tnXJ75NSyQGK28cxZVnOYIovgPRlc9B1o7WT8xYm0Q
-2025-06-14 19:09:39,702 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-latunnyy-bugatti-03070176-1-2-vr-g-h-1-2-nr-sh-babochka-pryamoy-824327210/?at=79tnXJ75NSyQGK28cxZVnOYIovgPRlc9B1o7WT8xYm0Q
-2025-06-14 19:09:41,607 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-latunnyy-bugatti-03070176-1-2-vr-g-h-1-2-nr-sh-babochka-pryamoy-824327210/?at=79tnXJ75NSyQGK28cxZVnOYIovgPRlc9B1o7WT8xYm0Q
-2025-06-14 19:09:41,624 - INFO - Обработка товара 24/50: https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-gayka-shtutser-babochka-stm-standart-4-sht-1959945196/?at=mqtkor4wlhk5Bp97H65wB73u229j54CPmAzw6h501vj3
-2025-06-14 19:09:41,624 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-gayka-shtutser-babochka-stm-standart-4-sht-1959945196/?at=mqtkor4wlhk5Bp97H65wB73u229j54CPmAzw6h501vj3
-2025-06-14 19:09:43,693 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-gayka-shtutser-babochka-stm-standart-4-sht-1959945196/?at=mqtkor4wlhk5Bp97H65wB73u229j54CPmAzw6h501vj3
-2025-06-14 19:09:43,711 - INFO - Обработка товара 25/50: https://ozon.ru/product/ruchka-dlya-sharovogo-krana-1-dyuym-krasnaya-i-sinyaya-1860362135/?at=z6tOYAVlqcgENRz7sMVAVRniqN73ozClKYwK3CKrDOwq
-2025-06-14 19:09:43,711 - INFO - Попытка 1/3 обработки https://ozon.ru/product/ruchka-dlya-sharovogo-krana-1-dyuym-krasnaya-i-sinyaya-1860362135/?at=z6tOYAVlqcgENRz7sMVAVRniqN73ozClKYwK3CKrDOwq
-2025-06-14 19:09:45,580 - INFO - Успешно собраны данные для https://ozon.ru/product/ruchka-dlya-sharovogo-krana-1-dyuym-krasnaya-i-sinyaya-1860362135/?at=z6tOYAVlqcgENRz7sMVAVRniqN73ozClKYwK3CKrDOwq
-2025-06-14 19:09:45,595 - INFO - Обработка товара 26/50: https://ozon.ru/product/kran-sharovyy-polipropilenovyy-ppr-ppr-d50-1-sht-dlya-holodnoy-i-goryachey-vody-otopleniya-2157099437/?at=DqtDLkG2Au7gNLmKh0B4883IG0ODXioOZvB5Cgk0BJq
-2025-06-14 19:09:45,595 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-polipropilenovyy-ppr-ppr-d50-1-sht-dlya-holodnoy-i-goryachey-vody-otopleniya-2157099437/?at=DqtDLkG2Au7gNLmKh0B4883IG0ODXioOZvB5Cgk0BJq
-2025-06-14 19:09:47,445 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-polipropilenovyy-ppr-ppr-d50-1-sht-dlya-holodnoy-i-goryachey-vody-otopleniya-2157099437/?at=DqtDLkG2Au7gNLmKh0B4883IG0ODXioOZvB5Cgk0BJq
-2025-06-14 19:09:47,462 - INFO - Обработка товара 27/50: https://ozon.ru/product/sharovyy-kran-1-2-dyuyma-rtp-sharovoy-latunnyy-vn-nar-pn-40-ruchka-babochka-900693610/?at=VvtznRQrySQ3o29pIJEv4Xocl0lPzVi2npLBnIym0NYx
-2025-06-14 19:09:47,462 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovyy-kran-1-2-dyuyma-rtp-sharovoy-latunnyy-vn-nar-pn-40-ruchka-babochka-900693610/?at=VvtznRQrySQ3o29pIJEv4Xocl0lPzVi2npLBnIym0NYx
-2025-06-14 19:09:49,315 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovyy-kran-1-2-dyuyma-rtp-sharovoy-latunnyy-vn-nar-pn-40-ruchka-babochka-900693610/?at=VvtznRQrySQ3o29pIJEv4Xocl0lPzVi2npLBnIym0NYx
-2025-06-14 19:09:49,331 - INFO - Обработка товара 28/50: https://ozon.ru/product/kran-sharovyy-dlya-vody-3-4-stm-standart-vnutrennyaya-rezba-ruchka-babochka-3-sht-1959868222/?at=83tB5K4VqCR921YlURzDRxntMwk4yyCDlGr2vS947l9L
-2025-06-14 19:09:49,331 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-3-4-stm-standart-vnutrennyaya-rezba-ruchka-babochka-3-sht-1959868222/?at=83tB5K4VqCR921YlURzDRxntMwk4yyCDlGr2vS947l9L
-2025-06-14 19:09:51,311 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-3-4-stm-standart-vnutrennyaya-rezba-ruchka-babochka-3-sht-1959868222/?at=83tB5K4VqCR921YlURzDRxntMwk4yyCDlGr2vS947l9L
-2025-06-14 19:09:51,327 - INFO - Обработка товара 29/50: https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-4-sht-1959733456/?at=z6tOYAVlqcgW7PnPs55xJmnSm3pn5pHrjPvBWSyW58Pk
-2025-06-14 19:09:51,327 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-4-sht-1959733456/?at=z6tOYAVlqcgW7PnPs55xJmnSm3pn5pHrjPvBWSyW58Pk
-2025-06-14 19:09:53,334 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-4-sht-1959733456/?at=z6tOYAVlqcgW7PnPs55xJmnSm3pn5pHrjPvBWSyW58Pk
-2025-06-14 19:09:53,352 - INFO - Обработка товара 30/50: https://ozon.ru/product/kran-uglovoy-1-2-dlya-goryachey-i-holodnoy-vody-komplekt-2sht-1252534853/?at=VvtznRQrySlK7N36tyzRBlIDryGkjuR3BvprFPzDNL1
-2025-06-14 19:09:53,352 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-uglovoy-1-2-dlya-goryachey-i-holodnoy-vody-komplekt-2sht-1252534853/?at=VvtznRQrySlK7N36tyzRBlIDryGkjuR3BvprFPzDNL1
-2025-06-14 19:09:55,136 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-uglovoy-1-2-dlya-goryachey-i-holodnoy-vody-komplekt-2sht-1252534853/?at=VvtznRQrySlK7N36tyzRBlIDryGkjuR3BvprFPzDNL1
-2025-06-14 19:09:55,152 - INFO - Запись данных в products.xlsx
-2025-06-14 19:09:55,161 - INFO - Excel-файл products.xlsx успешно создан
-2025-06-14 19:09:55,176 - INFO - Обработка товара 31/50: https://ozon.ru/product/kran-sharovyy-1-2-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du15-latunnyy-1359745044/?at=vQtrn3Vm8SgMjrXof1KLjLXF6QB70ACEROoJ8fLW3WYy
-2025-06-14 19:09:55,177 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du15-latunnyy-1359745044/?at=vQtrn3Vm8SgMjrXof1KLjLXF6QB70ACEROoJ8fLW3WYy
-2025-06-14 19:09:56,978 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du15-latunnyy-1359745044/?at=vQtrn3Vm8SgMjrXof1KLjLXF6QB70ACEROoJ8fLW3WYy
-2025-06-14 19:09:56,994 - INFO - Обработка товара 32/50: https://ozon.ru/product/kran-sharovyy-dlya-stiralnoy-mashiny-uglovoy-stm-1-2-h3-8-shtutser-shtutser-s-tsangoy-i-174407339/?at=99trWp7yqSRoZqmwSWqQmRliLwroWnS5yKZNmc6WYAgM
-2025-06-14 19:09:56,994 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-stiralnoy-mashiny-uglovoy-stm-1-2-h3-8-shtutser-shtutser-s-tsangoy-i-174407339/?at=99trWp7yqSRoZqmwSWqQmRliLwroWnS5yKZNmc6WYAgM
-2025-06-14 19:09:58,881 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-stiralnoy-mashiny-uglovoy-stm-1-2-h3-8-shtutser-shtutser-s-tsangoy-i-174407339/?at=99trWp7yqSRoZqmwSWqQmRliLwroWnS5yKZNmc6WYAgM
-2025-06-14 19:09:58,898 - INFO - Обработка товара 33/50: https://ozon.ru/product/sharovoy-kran-rommer-rbv-0001-2110315-1-2-vn-vn-ruchka-rychag-1410869694/?at=ywtAPRVvoTlnoWo0fAwnNvDu00vPKWsXyE81YtqRzZQX
-2025-06-14 19:09:58,898 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-rommer-rbv-0001-2110315-1-2-vn-vn-ruchka-rychag-1410869694/?at=ywtAPRVvoTlnoWo0fAwnNvDu00vPKWsXyE81YtqRzZQX
-2025-06-14 19:10:00,629 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-rommer-rbv-0001-2110315-1-2-vn-vn-ruchka-rychag-1410869694/?at=ywtAPRVvoTlnoWo0fAwnNvDu00vPKWsXyE81YtqRzZQX
-2025-06-14 19:10:00,646 - INFO - Обработка товара 34/50: https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-6-sht-1959740694/?at=nRtrZYB0DSyVZKjsGA2OXzh1vr0x1imQZnMAcxyMBz3
-2025-06-14 19:10:00,647 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-6-sht-1959740694/?at=nRtrZYB0DSyVZKjsGA2OXzh1vr0x1imQZnMAcxyMBz3
-2025-06-14 19:10:02,662 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-6-sht-1959740694/?at=nRtrZYB0DSyVZKjsGA2OXzh1vr0x1imQZnMAcxyMBz3
-2025-06-14 19:10:02,681 - INFO - Обработка товара 35/50: https://ozon.ru/product/kran-sharovyy-1-2-nrhvr-veher-1-sht-latun-ruchka-babochka-kran-sharovyy-latunnyy-1359745002/?at=gpt417QXycQp67YruZo4NrRCzLxYpnFo0GND4u1JO15v
-2025-06-14 19:10:02,681 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-nrhvr-veher-1-sht-latun-ruchka-babochka-kran-sharovyy-latunnyy-1359745002/?at=gpt417QXycQp67YruZo4NrRCzLxYpnFo0GND4u1JO15v
-2025-06-14 19:10:04,458 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-nrhvr-veher-1-sht-latun-ruchka-babochka-kran-sharovyy-latunnyy-1359745002/?at=gpt417QXycQp67YruZo4NrRCzLxYpnFo0GND4u1JO15v
-2025-06-14 19:10:04,475 - INFO - Обработка товара 36/50: https://ozon.ru/product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-25-latunnyy-ruchka-rychag-1832759439/?at=VvtznRQryS07oBLNc94GjRjHBk0PVkfAAWDA8fB5AAGN
-2025-06-14 19:10:04,475 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-25-latunnyy-ruchka-rychag-1832759439/?at=VvtznRQryS07oBLNc94GjRjHBk0PVkfAAWDA8fB5AAGN
-2025-06-14 19:10:06,329 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-25-latunnyy-ruchka-rychag-1832759439/?at=VvtznRQryS07oBLNc94GjRjHBk0PVkfAAWDA8fB5AAGN
-2025-06-14 19:10:06,347 - INFO - Обработка товара 37/50: https://ozon.ru/product/kran-sharavoy-f1-2-g-g-polnoprohodnoy-latun-ruchka-1753121140/?at=08tYXLPOBcl3Xnxgs02lpXDUzKOD4PIQOXXw1ClxQ9Dg
-2025-06-14 19:10:06,347 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharavoy-f1-2-g-g-polnoprohodnoy-latun-ruchka-1753121140/?at=08tYXLPOBcl3Xnxgs02lpXDUzKOD4PIQOXXw1ClxQ9Dg
-2025-06-14 19:10:08,238 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharavoy-f1-2-g-g-polnoprohodnoy-latun-ruchka-1753121140/?at=08tYXLPOBcl3Xnxgs02lpXDUzKOD4PIQOXXw1ClxQ9Dg
-2025-06-14 19:10:08,254 - INFO - Обработка товара 38/50: https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-nr-nr-babochka-iz-alyuminiya-gappo-g228-06-1-x1-up-1-sht-249497699/?at=83tB5K4VqCY6N97wSENYK7hM4ZXnMtZo5w7JI7L14D
-2025-06-14 19:10:08,254 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-nr-nr-babochka-iz-alyuminiya-gappo-g228-06-1-x1-up-1-sht-249497699/?at=83tB5K4VqCY6N97wSENYK7hM4ZXnMtZo5w7JI7L14D
-2025-06-14 19:10:09,962 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-nr-nr-babochka-iz-alyuminiya-gappo-g228-06-1-x1-up-1-sht-249497699/?at=83tB5K4VqCY6N97wSENYK7hM4ZXnMtZo5w7JI7L14D
-2025-06-14 19:10:09,978 - INFO - Обработка товара 39/50: https://ozon.ru/product/kran-pnd-25-mm-2127816016/?at=6WtZ6Bw2mtEK3001U00AGmLip3BnyvcMQknDu8gvJ9x
-2025-06-14 19:10:09,978 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-pnd-25-mm-2127816016/?at=6WtZ6Bw2mtEK3001U00AGmLip3BnyvcMQknDu8gvJ9x
-2025-06-14 19:10:11,818 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-pnd-25-mm-2127816016/?at=6WtZ6Bw2mtEK3001U00AGmLip3BnyvcMQknDu8gvJ9x
-2025-06-14 19:10:11,835 - INFO - Обработка товара 40/50: https://ozon.ru/product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-40-latunnyy-ruchka-rychag-1833124043/?at=lRt6wv4JEI7oRyO1uNWowQxTKjnNyvI6Y8ERrhx20MkG
-2025-06-14 19:10:11,836 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-40-latunnyy-ruchka-rychag-1833124043/?at=lRt6wv4JEI7oRyO1uNWowQxTKjnNyvI6Y8ERrhx20MkG
-2025-06-14 19:10:13,747 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-40-latunnyy-ruchka-rychag-1833124043/?at=lRt6wv4JEI7oRyO1uNWowQxTKjnNyvI6Y8ERrhx20MkG
-2025-06-14 19:10:13,797 - INFO - Запись данных в products.xlsx
-2025-06-14 19:10:13,813 - INFO - Excel-файл products.xlsx успешно создан
-2025-06-14 19:10:13,830 - INFO - Обработка товара 41/50: https://ozon.ru/product/kran-pnd-20mm-2127629823/?at=Eqtk8NXrxh0vBD8ViEgNrEf8g5WV4f3nkLJLhJq9VwK
-2025-06-14 19:10:13,830 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-pnd-20mm-2127629823/?at=Eqtk8NXrxh0vBD8ViEgNrEf8g5WV4f3nkLJLhJq9VwK
-2025-06-14 19:10:15,622 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-pnd-20mm-2127629823/?at=Eqtk8NXrxh0vBD8ViEgNrEf8g5WV4f3nkLJLhJq9VwK
-2025-06-14 19:10:15,640 - INFO - Обработка товара 42/50: https://ozon.ru/product/ruchka-rychag-dlya-sharovogo-krana-sinyaya-usilennaya-prorezinennaya-824150787/?at=jYtZ4vNLmt9wgmjZHg5ZrN8CG9yAglizQ9Y4VhpEBX7P
-2025-06-14 19:10:15,640 - INFO - Попытка 1/3 обработки https://ozon.ru/product/ruchka-rychag-dlya-sharovogo-krana-sinyaya-usilennaya-prorezinennaya-824150787/?at=jYtZ4vNLmt9wgmjZHg5ZrN8CG9yAglizQ9Y4VhpEBX7P
-2025-06-14 19:10:17,573 - INFO - Успешно собраны данные для https://ozon.ru/product/ruchka-rychag-dlya-sharovogo-krana-sinyaya-usilennaya-prorezinennaya-824150787/?at=jYtZ4vNLmt9wgmjZHg5ZrN8CG9yAglizQ9Y4VhpEBX7P
-2025-06-14 19:10:17,590 - INFO - Обработка товара 43/50: https://ozon.ru/product/sharovoy-kran-rommer-rbv-0004-2210215-1-2-vn-nr-ruchka-babochka-1410898273/?at=ywtAPRVvoTNqPv9WcqQXDm5IW8LVJ3SM02mEEFL2D45G
-2025-06-14 19:10:17,590 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-rommer-rbv-0004-2210215-1-2-vn-nr-ruchka-babochka-1410898273/?at=ywtAPRVvoTNqPv9WcqQXDm5IW8LVJ3SM02mEEFL2D45G
-2025-06-14 19:10:19,475 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-rommer-rbv-0004-2210215-1-2-vn-nr-ruchka-babochka-1410898273/?at=ywtAPRVvoTNqPv9WcqQXDm5IW8LVJ3SM02mEEFL2D45G
-2025-06-14 19:10:19,492 - INFO - Обработка товара 44/50: https://ozon.ru/product/kran-pnd-25-mm-2127816016/?at=K8tZyGpgWt7yPj4Acn8Wn21fWrmKA1SJNpw7PcB3KW1m
-2025-06-14 19:10:19,492 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-pnd-25-mm-2127816016/?at=K8tZyGpgWt7yPj4Acn8Wn21fWrmKA1SJNpw7PcB3KW1m
-2025-06-14 19:10:21,315 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-pnd-25-mm-2127816016/?at=K8tZyGpgWt7yPj4Acn8Wn21fWrmKA1SJNpw7PcB3KW1m
-2025-06-14 19:10:21,336 - INFO - Обработка товара 45/50: https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-babochka-nikel-ondo-1449550214/?at=36tWgEN1KsqjW04YFMpAzQAiwRmkBLCLNAnwRixxvkXl
-2025-06-14 19:10:21,337 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-babochka-nikel-ondo-1449550214/?at=36tWgEN1KsqjW04YFMpAzQAiwRmkBLCLNAnwRixxvkXl
-2025-06-14 19:10:23,227 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-babochka-nikel-ondo-1449550214/?at=36tWgEN1KsqjW04YFMpAzQAiwRmkBLCLNAnwRixxvkXl
-2025-06-14 19:10:23,246 - INFO - Обработка товара 46/50: https://ozon.ru/product/kran-sharovyy-bugatti-327-1-2-nn-babochka-1309408726/?at=DqtDLkG2AuRxDjW0tOqov4Rf7JgvYZsgQVGYkIr5jWqj
-2025-06-14 19:10:23,246 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-bugatti-327-1-2-nn-babochka-1309408726/?at=DqtDLkG2AuRxDjW0tOqov4Rf7JgvYZsgQVGYkIr5jWqj
-2025-06-14 19:10:25,105 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-bugatti-327-1-2-nn-babochka-1309408726/?at=DqtDLkG2AuRxDjW0tOqov4Rf7JgvYZsgQVGYkIr5jWqj
-2025-06-14 19:10:25,122 - INFO - Обработка товара 47/50: https://ozon.ru/product/kran-sharovyy-dlya-vody-stm-standart-3-4-vodorazbornyy-rychag-3-sht-1959797650/?at=ywtAPRVvoTK0pkM1uBl9qA5fLM7Yy4HBYRMNLT4zLVZl
-2025-06-14 19:10:25,122 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-stm-standart-3-4-vodorazbornyy-rychag-3-sht-1959797650/?at=ywtAPRVvoTK0pkM1uBl9qA5fLM7Yy4HBYRMNLT4zLVZl
-2025-06-14 19:10:27,182 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-stm-standart-3-4-vodorazbornyy-rychag-3-sht-1959797650/?at=ywtAPRVvoTK0pkM1uBl9qA5fLM7Yy4HBYRMNLT4zLVZl
-2025-06-14 19:10:27,200 - INFO - Обработка товара 48/50: https://ozon.ru/product/kran-sharovyy-dlya-vody-3-4-gayka-shtutser-rychag-5sht-1959962946/?at=z6tOYAVlqcyQz94XFj8ymG8CP7JR58t96Yw8jHrA4208
-2025-06-14 19:10:27,201 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-3-4-gayka-shtutser-rychag-5sht-1959962946/?at=z6tOYAVlqcyQz94XFj8ymG8CP7JR58t96Yw8jHrA4208
-2025-06-14 19:10:29,181 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-3-4-gayka-shtutser-rychag-5sht-1959962946/?at=z6tOYAVlqcyQz94XFj8ymG8CP7JR58t96Yw8jHrA4208
-2025-06-14 19:10:29,199 - INFO - Обработка товара 49/50: https://ozon.ru/product/kran-dlya-stiralnyh-i-posudomoechnyh-mashin-latunnyy-1560676003/?at=Y7tjW4BRlC8KGQpEhD4MP49SEBAO6ohOpmqN8i6pWkD4
-2025-06-14 19:10:29,199 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-dlya-stiralnyh-i-posudomoechnyh-mashin-latunnyy-1560676003/?at=Y7tjW4BRlC8KGQpEhD4MP49SEBAO6ohOpmqN8i6pWkD4
-2025-06-14 19:10:30,963 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-dlya-stiralnyh-i-posudomoechnyh-mashin-latunnyy-1560676003/?at=Y7tjW4BRlC8KGQpEhD4MP49SEBAO6ohOpmqN8i6pWkD4
-2025-06-14 19:10:30,980 - INFO - Обработка товара 50/50: https://ozon.ru/product/kran-sharovyy-dlya-vody-4-stm-standart-vnutrennyaya-rezba-ruchka-rychag-194418614/?at=57twPDNm9cO12o8qC9l1V9vC6kNlvQUlEqVkNFz8l5Ok
-2025-06-14 19:10:30,980 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-4-stm-standart-vnutrennyaya-rezba-ruchka-rychag-194418614/?at=57twPDNm9cO12o8qC9l1V9vC6kNlvQUlEqVkNFz8l5Ok
-2025-06-14 19:10:32,938 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-4-stm-standart-vnutrennyaya-rezba-ruchka-rychag-194418614/?at=57twPDNm9cO12o8qC9l1V9vC6kNlvQUlEqVkNFz8l5Ok
-2025-06-14 19:10:32,958 - INFO - Запись данных в products.xlsx
-2025-06-14 19:10:32,968 - INFO - Excel-файл products.xlsx успешно создан
-2025-06-14 19:10:32,992 - INFO - Запись данных в products.xlsx
-2025-06-14 19:10:33,004 - INFO - Excel-файл products.xlsx успешно создан
-2025-06-14 19:10:33,024 - INFO - Финальные данные сохранены в products.xlsx
-2025-06-14 19:10:33,024 - INFO - Excel-файл сохранён: products.xlsx
-2025-06-14 19:10:33,024 - INFO - Загружено 60 ссылок из temp_links_кран_шаровой.txt
-2025-06-14 19:10:33,024 - INFO - Загружено 49 ссылок из processed_links_кран_шаровой.txt
-2025-06-14 19:10:33,024 - WARNING - Найдено 60 необработанных ссылок
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovyy-bugatti-306-1-2-nv-ruchka-1309408987/?at=qQtJyowANcgRwZ7qtoBDGmBSN1RLpxIlqXwMocvypyMR
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovoy-rommer-uglovoy-s-amerikankoy-vr-nr-ruchka-babochka-1-2-rbv-0006-2610215-1410871617/?at=6WtZ6Bw2mt1mD50Lh7E8KAyum9L0gNfAAXxWwsMzrvkR
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-s-nosikom-sharovoy-sms-9006-1-2-splav-646644698/?at=XQtkPzrvKh9XBGvMTPpVNqMFNpjWJ5HYXmX0DtoXl8wK
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-dlya-poliva-vodorazbornyy-ruchka-rychag-kran-sadovyy-so-shtutserom-pod-shlang-1360184785/?at=K8tZyGpgWt8pjE4zSgN5AryfxAkoQzfzZv30Ehqx9qj7
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-4-sht-1959982022/?at=nRtrZYB0DSoYED0GCQDq28lio7LP9QU8yoYA2fZP2LK3
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovoy-uglovoy-s-nakidnoy-gaykoy-1-2-s-naruzhnoy-rezboy-tim-art-bv211-c02n-1946609040/?at=BrtzXO2QKSAKAPoqUgGRDODTJ4m85xfgg45qGcGy6RAJ
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-1-2-naruzhnaya-rezba-stm-standart-174299737/?at=WPtNLWo7quBnyGBYt9RAWxvSx3QAG7TADXpYYFky6Jyl
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-s-vnutrenney-i-naruzhnoy-rezboy-2-sht-gallop-seriya-praktik-1319117444/?at=RltyDzZ9WIpgno8xtP4ODG6IEA5g2AijpN6jVILNGky1
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovoy-rommer-vr-vr-ruchka-rychag-3-4-rbv-0001-2110320-1410870112/?at=6WtZ6Bw2mtjr87E8TzG02XUqNXXXJUrAJYlMUvWqm99
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovyy-bugatti-oregon-3-4-vnutrennyaya-naruzhnaya-rezba-babochka-2025611638/?at=mqtkor4wlhP9E8kyCWKkxmpINnLqWohlqqA8LuPwExwQ
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/sharovoy-kran-easytop-inox-s-sccontur-press-rychag-viega-2370-art-554781-54-mm-1440331433/?at=nRtrZYB0DSZXYBJVuVEqBQ8TWnxvBmH9LPDp3ig1lnk7
-2025-06-14 19:10:33,024 - INFO - Необработанная ссылка: /product/kran-sharovoy-3-4-babochka-1-shtuka-2054183129/?at=GRt2NQXx4u6qXzE4hOBEXrjF06LL48h5LK1AZSrqX6l3
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/sharovoy-kran-rommer-rbv-0002-2210320-3-4-vn-nr-ruchka-rychag-1410819107/?at=NOtwqGyK3clmY7NNhjVXklXfjRBzAEI8QlVLOcyP9AkW
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-3-4-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du20-latunnyy-1360184680/?at=oZt6V0WNYIv16BN6smGlE2BHXn0LwRs6R2pGlu7wxLyE
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/bugatti-kran-sharovoy-vp-nr-stalnoy-rychag-art-306-3-4-2038138704/?at=Y7tjW4BRlC1r8RDyU3mOOLGck8wXV1FZyNx7LTXmRPGO
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-latunnyy-s-vnutrenney-i-naruzhnoy-rezboy-2sht-2106901409/?at=99trWp7yqSoBGpq0CwXyy01C54WJjpfNY6K5jc4Z71YV
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-bugatti-301-1-2-vv-ruchka-1309408927/?at=6WtZ6Bw2mtp4M8xrSnJv4xZhBDglwT64Yj2NiW1Y3B
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/trehprohodnoy-kran-1-2-3-4-1-2-bugatti-dlya-stiralnoy-i-posudomoechnoy-mashiny-951303261/?at=28t029yq3TpjGMy6I8NvAG8cp05zPqSXK5BMPU4PW067
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-stali-gappo-g226-08-11-2-x11-2-up-1-sht-674799018/?at=83tB5K4VqCE8jog0HAK3MMhjkmxgZHyP7lgNcy7ko1
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovoy-polnoprohodnoy-vr-vr-rychag-iz-alyuminiya-gappo-g226-05-3-4-x3-4-up-1-sht-249499797/?at=57twPDNm9cAM0pONigKDlYKUOwG65xf9XJmMJsLKPENl
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-dlya-vody-rychag-nikel-ondo-1449548532/?at=99trWp7yqSJG6nnQcrDPMDLF6zP1MJhlRyLwouV9G9Rn
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-dlya-vody-babochka-nikel-ondo-1449547174/?at=r2t4RGJKZcR6n7g7Cq9qqK0UW0mnzzuQMM1rOfp6mmDM
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovoy-latunnyy-bugatti-03070176-1-2-vr-g-h-1-2-nr-sh-babochka-pryamoy-824327210/?at=79tnXJ75NSyQGK28cxZVnOYIovgPRlc9B1o7WT8xYm0Q
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-3-4-dlya-vody-gayka-shtutser-babochka-stm-standart-4-sht-1959945196/?at=mqtkor4wlhk5Bp97H65wB73u229j54CPmAzw6h501vj3
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-4-stm-standart-vnutrennyaya-rezba-ruchka-rychag-194418614/?at=57twPDNm9cO12o8qC9l1V9vC6kNlvQUlEqVkNFz8l5Ok
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/ruchka-dlya-sharovogo-krana-1-dyuym-krasnaya-i-sinyaya-1860362135/?at=z6tOYAVlqcgENRz7sMVAVRniqN73ozClKYwK3CKrDOwq
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-polipropilenovyy-ppr-ppr-d50-1-sht-dlya-holodnoy-i-goryachey-vody-otopleniya-2157099437/?at=DqtDLkG2Au7gNLmKh0B4883IG0ODXioOZvB5Cgk0BJq
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/sharovyy-kran-1-2-dyuyma-rtp-sharovoy-latunnyy-vn-nar-pn-40-ruchka-babochka-900693610/?at=VvtznRQrySQ3o29pIJEv4Xocl0lPzVi2npLBnIym0NYx
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-3-4-stm-standart-vnutrennyaya-rezba-ruchka-babochka-3-sht-1959868222/?at=83tB5K4VqCR921YlURzDRxntMwk4yyCDlGr2vS947l9L
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-4-sht-1959733456/?at=z6tOYAVlqcgW7PnPs55xJmnSm3pn5pHrjPvBWSyW58Pk
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-uglovoy-1-2-dlya-goryachey-i-holodnoy-vody-komplekt-2sht-1252534853/?at=VvtznRQrySlK7N36tyzRBlIDryGkjuR3BvprFPzDNL1
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-vrhvr-veher-1-sht-latun-ruchka-rychag-kran-sharovyy-du15-latunnyy-1359745044/?at=vQtrn3Vm8SgMjrXof1KLjLXF6QB70ACEROoJ8fLW3WYy
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-stiralnoy-mashiny-uglovoy-stm-1-2-h3-8-shtutser-shtutser-s-tsangoy-i-174407339/?at=99trWp7yqSRoZqmwSWqQmRliLwroWnS5yKZNmc6WYAgM
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/sharovoy-kran-rommer-rbv-0001-2110315-1-2-vn-vn-ruchka-rychag-1410869694/?at=ywtAPRVvoTlnoWo0fAwnNvDu00vPKWsXyE81YtqRzZQX
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-s-nakidnoy-gaykoy-3-4-dlya-vody-stm-standart-babochka-6-sht-1959740694/?at=nRtrZYB0DSyVZKjsGA2OXzh1vr0x1imQZnMAcxyMBz3
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-nrhvr-veher-1-sht-latun-ruchka-babochka-kran-sharovyy-latunnyy-1359745002/?at=gpt417QXycQp67YruZo4NrRCzLxYpnFo0GND4u1JO15v
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-25-latunnyy-ruchka-rychag-1832759439/?at=VvtznRQryS07oBLNc94GjRjHBk0PVkfAAWDA8fB5AAGN
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharavoy-f1-2-g-g-polnoprohodnoy-latun-ruchka-1753121140/?at=08tYXLPOBcl3Xnxgs02lpXDUzKOD4PIQOXXw1ClxQ9Dg
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovoy-polnoprohodnoy-nr-nr-babochka-iz-alyuminiya-gappo-g228-06-1-x1-up-1-sht-249497699/?at=83tB5K4VqCY6N97wSENYK7hM4ZXnMtZo5w7JI7L14D
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-pnd-25-mm-2127816016/?at=6WtZ6Bw2mtEK3001U00AGmLip3BnyvcMQknDu8gvJ9x
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/sharovoy-kran-1-2-dyuym-rtp-vn-nar-pn-40-latunnyy-ruchka-rychag-1833124043/?at=lRt6wv4JEI7oRyO1uNWowQxTKjnNyvI6Y8ERrhx20MkG
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-pnd-20mm-2127629823/?at=Eqtk8NXrxh0vBD8ViEgNrEf8g5WV4f3nkLJLhJq9VwK
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/ruchka-rychag-dlya-sharovogo-krana-sinyaya-usilennaya-prorezinennaya-824150787/?at=jYtZ4vNLmt9wgmjZHg5ZrN8CG9yAglizQ9Y4VhpEBX7P
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/sharovoy-kran-rommer-rbv-0004-2210215-1-2-vn-nr-ruchka-babochka-1410898273/?at=ywtAPRVvoTNqPv9WcqQXDm5IW8LVJ3SM02mEEFL2D45G
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-pnd-25-mm-2127816016/?at=K8tZyGpgWt7yPj4Acn8Wn21fWrmKA1SJNpw7PcB3KW1m
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-3-4-dlya-vody-babochka-nikel-ondo-1449550214/?at=36tWgEN1KsqjW04YFMpAzQAiwRmkBLCLNAnwRixxvkXl
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-bugatti-327-1-2-nn-babochka-1309408726/?at=DqtDLkG2AuRxDjW0tOqov4Rf7JgvYZsgQVGYkIr5jWqj
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-stm-standart-3-4-vodorazbornyy-rychag-3-sht-1959797650/?at=ywtAPRVvoTK0pkM1uBl9qA5fLM7Yy4HBYRMNLT4zLVZl
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-3-4-gayka-shtutser-rychag-5sht-1959962946/?at=z6tOYAVlqcyQz94XFj8ymG8CP7JR58t96Yw8jHrA4208
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-dlya-stiralnyh-i-posudomoechnyh-mashin-latunnyy-1560676003/?at=Y7tjW4BRlC8KGQpEhD4MP49SEBAO6ohOpmqN8i6pWkD4
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-3-4-h20-tsanga-gayka-babochka-6-sht-1966335887/?at=XQtkPzrvKhDvRZvziykZDNphnEjkGRfRElppJuJqkln8
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-1-2-gallop-vn-nar-ruchka-2-sht-1715723947/?at=Y7tjW4BRlCY1q3JZFp3ZW98SGQxPrwfXyz3JGUW34BZ8
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-stm-standart-3-4-vodorazbornyy-rychag-2-sht-1959796023/?at=BrtzXO2QKSE6nxonhpLl2yosOMM5gWfRZm3xwH6lm6vq
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/ruchka-1dyuym-dlya-sharovogo-krana-1602926418/?at=LZtlDZ8x9coroonYuzLBGyMiRy0YAFmnMz55uPj3vEm
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-stiralnoy-i-posudomoechnoy-mashiny-stm-1-2-x3-4-x1-2-gayka-shtutser-shtutser-174150686/?at=ywtAPRVvoTrK2107tyLDyGqSLND5zNc4P9El9ULr5ZG2
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovoy-polnoprohodnoy-vr-nr-babochka-iz-alyuminiya-gappo-g225-06-1-x1-up-1-sht-249504500/?at=k2toypGVBTyjO77vs8GzABrT51gYg1f4LkR5Mi65VRkp
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-1-2-stm-standart-s-filtrom-ruchka-rychag-4-sht-1966279618/?at=99trWp7yqS3D5jr2S6J480gi9x012psD9ZM3LCGwJQ5y
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/sharovoy-kran-rommer-rbv-0003-2110215-1-2-vn-vn-ruchka-babochka-1410819187/?at=28t029yq3TQKLEm9sRPLr6KhqwwE54H0oX81zcQgJgKr
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-s-nakidnoy-gaykoy-1-dlya-vody-stm-standart-babochka-174322966/?at=Y7tjW4BRlCzEx70KIwnR7GWfo88W23s0ZnjpLTGmzO6p
-2025-06-14 19:10:33,025 - INFO - Необработанная ссылка: /product/kran-sharovyy-dlya-vody-1-2-stm-standart-vnutrennyaya-rezba-ruchka-babochka-174120486/?at=J8tgWDMGws2kMO72Tl1Lq80hW8Wq9ZspPqVQzigMl11g
-2025-06-14 19:10:33,025 - INFO - Необработанные ссылки сохранены в unprocessed_links_кран_шаровой.txt
-2025-06-14 19:10:33,290 - INFO - Браузер закрыт
+2025-06-14 20:09:19,890 - INFO - Запуск парсера с параметрами: query=None, max_products=10, resume=False, temp_file=temp_links_кран_шаровой.txt, processed_file=processed_links_кран_шаровой.txt, links_file=None
+2025-06-14 20:09:19,890 - INFO - Инициализация браузера
+2025-06-14 20:09:19,890 - INFO - Запуск Playwright и настройка браузера
+2025-06-14 20:09:21,326 - INFO - Переход на сайт Ozon
+2025-06-14 20:09:23,227 - INFO - Ожидание загрузки страницы
+2025-06-14 20:09:30,271 - INFO - Ввод поискового запроса: 
+2025-06-14 20:09:32,466 - INFO - Поисковый запрос отправлен
+2025-06-14 20:09:32,467 - INFO - Браузер успешно открыт
+2025-06-14 20:09:32,467 - INFO - Запуск допарсинга с файлами temp_links_кран_шаровой.txt и processed_links_кран_шаровой.txt
+2025-06-14 20:09:32,479 - INFO - Загружено 10305 ссылок из temp_links_кран_шаровой.txt
+2025-06-14 20:09:32,479 - INFO - Загружено 10305 ссылок из temp_links_кран_шаровой.txt
+2025-06-14 20:09:32,484 - INFO - Найдено товаров: 10305
+2025-06-14 20:09:32,502 - INFO - Загружено 7965 обработанных ссылок из processed_links_кран_шаровой.txt
+2025-06-14 20:09:32,506 - INFO - Осталось обработать 2340 ссылок
+2025-06-14 20:09:32,507 - INFO - Сбор данных о товарах
+2025-06-14 20:09:32,507 - INFO - Обработка товара 1/2340: https://ozon.ru/product/kran-dlya-vody-2-sht-1-2-vr-nr-40-bar-babochka-temper-2223923864/?at=GRt2Nn95Kik0Y8WXUG2zmWnf24LOYmC09D8zoTWMyxrV
+2025-06-14 20:09:32,507 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-dlya-vody-2-sht-1-2-vr-nr-40-bar-babochka-temper-2223923864/?at=GRt2Nn95Kik0Y8WXUG2zmWnf24LOYmC09D8zoTWMyxrV
+2025-06-14 20:09:36,064 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-dlya-vody-2-sht-1-2-vr-nr-40-bar-babochka-temper-2223923864/?at=GRt2Nn95Kik0Y8WXUG2zmWnf24LOYmC09D8zoTWMyxrV
+2025-06-14 20:09:36,091 - INFO - Обработка товара 2/2340: https://ozon.ru/product/kran-sharovyy-3-4-s-elektroprivodom-220v-1740933959/?at=A6tGK05ALcRZpp0vuJRKDm7igKmO1Nc7xJPyzivn2A6N
+2025-06-14 20:09:36,091 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-3-4-s-elektroprivodom-220v-1740933959/?at=A6tGK05ALcRZpp0vuJRKDm7igKmO1Nc7xJPyzivn2A6N
+2025-06-14 20:09:40,714 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-3-4-s-elektroprivodom-220v-1740933959/?at=A6tGK05ALcRZpp0vuJRKDm7igKmO1Nc7xJPyzivn2A6N
+2025-06-14 20:09:40,777 - INFO - Обработка товара 3/2340: https://ozon.ru/product/kran-uglovoy-s-amerikankoy-polnoprohodnoy-usilennyy-1-tim-de1237x-para-2068369390/?at=qQtJyBvjKcMqAm6BixP79NBs6XQwXMFJy3QORcPXD5EM
+2025-06-14 20:09:40,778 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-uglovoy-s-amerikankoy-polnoprohodnoy-usilennyy-1-tim-de1237x-para-2068369390/?at=qQtJyBvjKcMqAm6BixP79NBs6XQwXMFJy3QORcPXD5EM
+2025-06-14 20:09:46,459 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-uglovoy-s-amerikankoy-polnoprohodnoy-usilennyy-1-tim-de1237x-para-2068369390/?at=qQtJyBvjKcMqAm6BixP79NBs6XQwXMFJy3QORcPXD5EM
+2025-06-14 20:09:46,507 - INFO - Обработка товара 4/2340: https://ozon.ru/product/kran-sharovoy-s-polusgonom-1-tim-para-1854721307/?at=gpt416JZOhYwlLzZCj9kOlyCNWBjPkU1vkpKjiJp5pRk
+2025-06-14 20:09:46,507 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-s-polusgonom-1-tim-para-1854721307/?at=gpt416JZOhYwlLzZCj9kOlyCNWBjPkU1vkpKjiJp5pRk
+2025-06-14 20:09:50,225 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-s-polusgonom-1-tim-para-1854721307/?at=gpt416JZOhYwlLzZCj9kOlyCNWBjPkU1vkpKjiJp5pRk
+2025-06-14 20:09:50,252 - INFO - Обработка товара 5/2340: https://ozon.ru/product/kran-sharovoy-bugatti-oregon-327-nr-nr-babochka-1-2-1807108851/?at=PjtJ1gnE8cxMOD7BHNg4ZwmulQ6MmksxPD1rquDkn9OV
+2025-06-14 20:09:50,252 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-bugatti-oregon-327-nr-nr-babochka-1-2-1807108851/?at=PjtJ1gnE8cxMOD7BHNg4ZwmulQ6MmksxPD1rquDkn9OV
+2025-06-14 20:09:53,281 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-bugatti-oregon-327-nr-nr-babochka-1-2-1807108851/?at=PjtJ1gnE8cxMOD7BHNg4ZwmulQ6MmksxPD1rquDkn9OV
+2025-06-14 20:09:53,308 - INFO - Обработка товара 6/2340: https://ozon.ru/product/kran-sharovoy-40-bar-diametr-1-2-poleznyy-1957140593/?at=RltyDYXqjh76zppF9mBwVGtG9Vr0vHGvVGZJsYYx0M3
+2025-06-14 20:09:53,308 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-40-bar-diametr-1-2-poleznyy-1957140593/?at=RltyDYXqjh76zppF9mBwVGtG9Vr0vHGvVGZJsYYx0M3
+2025-06-14 20:09:56,058 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-40-bar-diametr-1-2-poleznyy-1957140593/?at=RltyDYXqjh76zppF9mBwVGtG9Vr0vHGvVGZJsYYx0M3
+2025-06-14 20:09:56,086 - INFO - Обработка товара 7/2340: https://ozon.ru/product/kran-sharovoy-25-bar-diametr-32-1957134870/?at=6WtZ6kJYjCkzQg77fg53Rrwhl5APolFXOjrOjsp3ApGq
+2025-06-14 20:09:56,086 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-25-bar-diametr-32-1957134870/?at=6WtZ6kJYjCkzQg77fg53Rrwhl5APolFXOjrOjsp3ApGq
+2025-06-14 20:09:59,171 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-25-bar-diametr-32-1957134870/?at=6WtZ6kJYjCkzQg77fg53Rrwhl5APolFXOjrOjsp3ApGq
+2025-06-14 20:09:59,222 - INFO - Обработка товара 8/2340: https://ozon.ru/product/kran-sharovyy-32-pnd-pod-payku-2sht-1639521281/?at=qQtJyBvjKc414M8LIZ59RA7hZKX30Ah71wp5ltpx3R5q
+2025-06-14 20:09:59,224 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-32-pnd-pod-payku-2sht-1639521281/?at=qQtJyBvjKc414M8LIZ59RA7hZKX30Ah71wp5ltpx3R5q
+2025-06-14 20:10:02,999 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-32-pnd-pod-payku-2sht-1639521281/?at=qQtJyBvjKc414M8LIZ59RA7hZKX30Ah71wp5ltpx3R5q
+2025-06-14 20:10:03,051 - INFO - Обработка товара 9/2340: https://ozon.ru/product/sharovyy-kran-v-v-du-25-1-ruchka-chernaya-3000175-287600138/?at=GRt2Nn95KilVAKlLFQGL2gZsYK9lXZTo58P1YHYqZo1R
+2025-06-14 20:10:03,052 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovyy-kran-v-v-du-25-1-ruchka-chernaya-3000175-287600138/?at=GRt2Nn95KilVAKlLFQGL2gZsYK9lXZTo58P1YHYqZo1R
+2025-06-14 20:10:06,139 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovyy-kran-v-v-du-25-1-ruchka-chernaya-3000175-287600138/?at=GRt2Nn95KilVAKlLFQGL2gZsYK9lXZTo58P1YHYqZo1R
+2025-06-14 20:10:06,181 - INFO - Обработка товара 10/2340: https://ozon.ru/product/kran-uglovoy-s-amerikankoy-3-4-bab-kras-vieir-1767093498/?at=oZt6V9m3jFpWDNJZFw5NV3xf8JnoxlurDxK2KFkyp460
+2025-06-14 20:10:06,182 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-uglovoy-s-amerikankoy-3-4-bab-kras-vieir-1767093498/?at=oZt6V9m3jFpWDNJZFw5NV3xf8JnoxlurDxK2KFkyp460
+2025-06-14 20:10:09,835 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-uglovoy-s-amerikankoy-3-4-bab-kras-vieir-1767093498/?at=oZt6V9m3jFpWDNJZFw5NV3xf8JnoxlurDxK2KFkyp460
+2025-06-14 20:10:09,923 - INFO - Запись данных в products.xlsx
+2025-06-14 20:10:14,314 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:10:14,387 - INFO - Обработка товара 11/2340: https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ
+2025-06-14 20:10:14,387 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ
+2025-06-14 20:10:20,990 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ (попытка 1): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:10:26,084 - INFO - Попытка 2/3 обработки https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ
+2025-06-14 20:10:32,274 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ (попытка 2): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:10:37,308 - INFO - Попытка 3/3 обработки https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ
+2025-06-14 20:10:43,459 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ (попытка 3): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:10:43,460 - ERROR - Не удалось обработать https://ozon.ru/product/kran-vodozabornyy-sadovyy-uluchshennyy-1-2-dyuyma-920415309/?at=QktJ1VLjMc909vOHWg4lD3iBW7zwxTzqKy6phA0z0MQ после 3 попыток
+2025-06-14 20:10:43,556 - INFO - Обработка товара 12/2340: https://ozon.ru/product/kran-sharovoy-gazovyy-1-2-vr-vr-2092151679/?at=k2toylvz8cg8oK01inlvrE6cwYZ6jJHmz51A9IGYXqm7
+2025-06-14 20:10:43,557 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-gazovyy-1-2-vr-vr-2092151679/?at=k2toylvz8cg8oK01inlvrE6cwYZ6jJHmz51A9IGYXqm7
+2025-06-14 20:10:46,753 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-gazovyy-1-2-vr-vr-2092151679/?at=k2toylvz8cg8oK01inlvrE6cwYZ6jJHmz51A9IGYXqm7
+2025-06-14 20:10:46,789 - INFO - Обработка товара 13/2340: https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-1-2-dlya-vody-stm-standart-babochka-4-sht-1959710200/?at=16tLAgXN2cE2BxwDIJvP29ZInpAnJBiwPNX30hkw2A7Q
+2025-06-14 20:10:46,789 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-1-2-dlya-vody-stm-standart-babochka-4-sht-1959710200/?at=16tLAgXN2cE2BxwDIJvP29ZInpAnJBiwPNX30hkw2A7Q
+2025-06-14 20:10:51,833 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-s-nakidnoy-gaykoy-1-2-dlya-vody-stm-standart-babochka-4-sht-1959710200/?at=16tLAgXN2cE2BxwDIJvP29ZInpAnJBiwPNX30hkw2A7Q
+2025-06-14 20:10:51,870 - INFO - Обработка товара 14/2340: https://ozon.ru/product/ac-220v-motorizovannyy-sharovoy-kran-dn15-1801211871/?at=28t02rQzPCm1VMxKsLqQDYDHYgAW43i4KLEq5cK6pDE9
+2025-06-14 20:10:51,871 - INFO - Попытка 1/3 обработки https://ozon.ru/product/ac-220v-motorizovannyy-sharovoy-kran-dn15-1801211871/?at=28t02rQzPCm1VMxKsLqQDYDHYgAW43i4KLEq5cK6pDE9
+2025-06-14 20:10:55,627 - INFO - Успешно собраны данные для https://ozon.ru/product/ac-220v-motorizovannyy-sharovoy-kran-dn15-1801211871/?at=28t02rQzPCm1VMxKsLqQDYDHYgAW43i4KLEq5cK6pDE9
+2025-06-14 20:10:55,663 - INFO - Обработка товара 15/2340: https://ozon.ru/product/kran-sharovyy-valtec-standart-3-4-vv-babochka-pn40-vt-122-gn-05-komplekt-2-sht-1775622417/?at=08tYXvzwqcoK8JYrSQ6lPp1h9Ygy2KfZKzEmRsGvv2W
+2025-06-14 20:10:55,664 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-valtec-standart-3-4-vv-babochka-pn40-vt-122-gn-05-komplekt-2-sht-1775622417/?at=08tYXvzwqcoK8JYrSQ6lPp1h9Ygy2KfZKzEmRsGvv2W
+2025-06-14 20:10:59,597 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-valtec-standart-3-4-vv-babochka-pn40-vt-122-gn-05-komplekt-2-sht-1775622417/?at=08tYXvzwqcoK8JYrSQ6lPp1h9Ygy2KfZKzEmRsGvv2W
+2025-06-14 20:10:59,627 - INFO - Обработка товара 16/2340: https://ozon.ru/product/kran-s-elektroprivodom-1-2-elektricheskiy-klapan-fiting-dlya-vodoprovodnoy-truby-latunnyy-1644798543/?at=lRt6wGlN0FjLJlzXCpGvzQlFxmqvOyFo4nDPEcLoGlxO
+2025-06-14 20:10:59,628 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-s-elektroprivodom-1-2-elektricheskiy-klapan-fiting-dlya-vodoprovodnoy-truby-latunnyy-1644798543/?at=lRt6wGlN0FjLJlzXCpGvzQlFxmqvOyFo4nDPEcLoGlxO
+2025-06-14 20:11:03,653 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-s-elektroprivodom-1-2-elektricheskiy-klapan-fiting-dlya-vodoprovodnoy-truby-latunnyy-1644798543/?at=lRt6wGlN0FjLJlzXCpGvzQlFxmqvOyFo4nDPEcLoGlxO
+2025-06-14 20:11:03,701 - INFO - Обработка товара 17/2340: https://ozon.ru/product/kran-sharovoy-oregon-bugatti-1-babochka-1386972607/?at=r2t4RMOlPhLZ0JyDIP9OD8Gu2ZpJ8kiJ19oZEfOOn3Bl
+2025-06-14 20:11:03,703 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-oregon-bugatti-1-babochka-1386972607/?at=r2t4RMOlPhLZ0JyDIP9OD8Gu2ZpJ8kiJ19oZEfOOn3Bl
+2025-06-14 20:11:07,694 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-oregon-bugatti-1-babochka-1386972607/?at=r2t4RMOlPhLZ0JyDIP9OD8Gu2ZpJ8kiJ19oZEfOOn3Bl
+2025-06-14 20:11:07,722 - INFO - Обработка товара 18/2340: https://ozon.ru/product/kran-sharovyy-pnd-20h20-valfex-10sht-1919718616/?at=QktJ1VLjMckxWWo8frjnL43f1v82PwHL88nomHrkoWG4
+2025-06-14 20:11:07,722 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-pnd-20h20-valfex-10sht-1919718616/?at=QktJ1VLjMckxWWo8frjnL43f1v82PwHL88nomHrkoWG4
+2025-06-14 20:11:11,856 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-pnd-20h20-valfex-10sht-1919718616/?at=QktJ1VLjMckxWWo8frjnL43f1v82PwHL88nomHrkoWG4
+2025-06-14 20:11:11,891 - INFO - Обработка товара 19/2340: https://ozon.ru/product/kran-sharovoy-vv-polnoprohodnoy-babochka-uni-fitt-1-1525626133/?at=Y7tjWYX2EcQpnXyxT3BXWM7Hk479goHLo6oGDHmgGpk4
+2025-06-14 20:11:11,892 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-vv-polnoprohodnoy-babochka-uni-fitt-1-1525626133/?at=Y7tjWYX2EcQpnXyxT3BXWM7Hk479goHLo6oGDHmgGpk4
+2025-06-14 20:11:16,009 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-vv-polnoprohodnoy-babochka-uni-fitt-1-1525626133/?at=Y7tjWYX2EcQpnXyxT3BXWM7Hk479goHLo6oGDHmgGpk4
+2025-06-14 20:11:16,037 - INFO - Обработка товара 20/2340: https://ozon.ru/product/kran-sharovyy-1-2-dn15-trehhodovoy-t-tip-nerzhaveyushchiy-aisi304-1502515844/?at=Eqtk8yj5VhQV7PO1IDq78M3FyyKjR0tyEL6oKhrv7z8G
+2025-06-14 20:11:16,037 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-dn15-trehhodovoy-t-tip-nerzhaveyushchiy-aisi304-1502515844/?at=Eqtk8yj5VhQV7PO1IDq78M3FyyKjR0tyEL6oKhrv7z8G
+2025-06-14 20:11:20,342 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-dn15-trehhodovoy-t-tip-nerzhaveyushchiy-aisi304-1502515844/?at=Eqtk8yj5VhQV7PO1IDq78M3FyyKjR0tyEL6oKhrv7z8G
+2025-06-14 20:11:20,385 - INFO - Запись данных в products.xlsx
+2025-06-14 20:11:24,461 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:11:24,537 - INFO - Обработка товара 21/2340: https://ozon.ru/product/kran-sharovyy-polnoprohodnoy-3-4-vr-vr-oventrop-optibal-1077106-2sht-1622483925/?at=WPtNL38mRsK4QrM4C5M59p4sVQWkgJTY5KgnxTRrq3GB
+2025-06-14 20:11:24,538 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-polnoprohodnoy-3-4-vr-vr-oventrop-optibal-1077106-2sht-1622483925/?at=WPtNL38mRsK4QrM4C5M59p4sVQWkgJTY5KgnxTRrq3GB
+2025-06-14 20:11:28,881 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-polnoprohodnoy-3-4-vr-vr-oventrop-optibal-1077106-2sht-1622483925/?at=WPtNL38mRsK4QrM4C5M59p4sVQWkgJTY5KgnxTRrq3GB
+2025-06-14 20:11:28,910 - INFO - Обработка товара 22/2340: https://ozon.ru/product/kran-amerikanka-g-1-2-40-bar-sharovoy-latunnyy-2010370393/?at=x6tP58jonsRKOjrxtjyBlkyu66ZGQlfonABJEiQE0rVp
+2025-06-14 20:11:28,911 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-amerikanka-g-1-2-40-bar-sharovoy-latunnyy-2010370393/?at=x6tP58jonsRKOjrxtjyBlkyu66ZGQlfonABJEiQE0rVp
+2025-06-14 20:11:32,954 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-amerikanka-g-1-2-40-bar-sharovoy-latunnyy-2010370393/?at=x6tP58jonsRKOjrxtjyBlkyu66ZGQlfonABJEiQE0rVp
+2025-06-14 20:11:32,983 - INFO - Обработка товара 23/2340: https://ozon.ru/product/kran-sharovyy-latunnyy-vodorazbornyy-3-4-kran-nosik-naruzhnaya-rezba-ruchka-rychag-stm-1sht-1511926555/?at=DqtDLpZlNcpvgwXAH6NVq98CDM4qR5Hw8G06nIQ2k0oP
+2025-06-14 20:11:32,983 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-latunnyy-vodorazbornyy-3-4-kran-nosik-naruzhnaya-rezba-ruchka-rychag-stm-1sht-1511926555/?at=DqtDLpZlNcpvgwXAH6NVq98CDM4qR5Hw8G06nIQ2k0oP
+2025-06-14 20:11:36,983 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-latunnyy-vodorazbornyy-3-4-kran-nosik-naruzhnaya-rezba-ruchka-rychag-stm-1sht-1511926555/?at=DqtDLpZlNcpvgwXAH6NVq98CDM4qR5Hw8G06nIQ2k0oP
+2025-06-14 20:11:37,017 - INFO - Обработка товара 24/2340: https://ozon.ru/product/kran-sharovyy-stalnoy-trehhodovoy-t-tip-nerzhaveyushchiy-aisi316-dn25-1-cf8m-pn64-1236961931/?at=RltyDYXqjhMM9VjXHrjOL3EfEnJpvPfELomAXt9KpgDW
+2025-06-14 20:11:37,018 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-stalnoy-trehhodovoy-t-tip-nerzhaveyushchiy-aisi316-dn25-1-cf8m-pn64-1236961931/?at=RltyDYXqjhMM9VjXHrjOL3EfEnJpvPfELomAXt9KpgDW
+2025-06-14 20:11:41,373 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-stalnoy-trehhodovoy-t-tip-nerzhaveyushchiy-aisi316-dn25-1-cf8m-pn64-1236961931/?at=RltyDYXqjhMM9VjXHrjOL3EfEnJpvPfELomAXt9KpgDW
+2025-06-14 20:11:41,434 - INFO - Обработка товара 25/2340: https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-gayka-shtutser-babochka-stm-standart-174299738/?at=WPtNL38mRsKnqDoAiXXZxJPFWZ4L4VivokBpZsz87YXv
+2025-06-14 20:11:41,435 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-gayka-shtutser-babochka-stm-standart-174299738/?at=WPtNL38mRsKnqDoAiXXZxJPFWZ4L4VivokBpZsz87YXv
+2025-06-14 20:11:47,101 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-3-4-dlya-vody-gayka-shtutser-babochka-stm-standart-174299738/?at=WPtNL38mRsKnqDoAiXXZxJPFWZ4L4VivokBpZsz87YXv
+2025-06-14 20:11:47,130 - INFO - Обработка товара 26/2340: https://ozon.ru/product/kran-sharovyy-vv-babochka-1-bugatti-1013689855/?at=lRt6wGlN0FvL9kxKfXK4wpGfPMmp2Ju4J6vPDhQq0VXo
+2025-06-14 20:11:47,130 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-vv-babochka-1-bugatti-1013689855/?at=lRt6wGlN0FvL9kxKfXK4wpGfPMmp2Ju4J6vPDhQq0VXo
+2025-06-14 20:11:51,003 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-vv-babochka-1-bugatti-1013689855/?at=lRt6wGlN0FvL9kxKfXK4wpGfPMmp2Ju4J6vPDhQq0VXo
+2025-06-14 20:11:51,032 - INFO - Обработка товара 27/2340: https://ozon.ru/product/ventil-3-4-vnutr-vnutr-prostoy-du-20-510535273/?at=MZtvyPY4MCKJ2qp3UVZ3yJGS78PVK7uQ58KmzFn1gEk2
+2025-06-14 20:11:51,033 - INFO - Попытка 1/3 обработки https://ozon.ru/product/ventil-3-4-vnutr-vnutr-prostoy-du-20-510535273/?at=MZtvyPY4MCKJ2qp3UVZ3yJGS78PVK7uQ58KmzFn1gEk2
+2025-06-14 20:11:55,044 - INFO - Успешно собраны данные для https://ozon.ru/product/ventil-3-4-vnutr-vnutr-prostoy-du-20-510535273/?at=MZtvyPY4MCKJ2qp3UVZ3yJGS78PVK7uQ58KmzFn1gEk2
+2025-06-14 20:11:55,075 - INFO - Обработка товара 28/2340: https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-pryamoy-giacomini-007-1314-dn15-pn35-1-2-vr-vr-ruchka-babochka-latun-1691604131/?at=k2toylvz8cj6DZOxiZ4xWYVsJWmXjYcpWk1DOiZvGY7
+2025-06-14 20:11:55,077 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-pryamoy-giacomini-007-1314-dn15-pn35-1-2-vr-vr-ruchka-babochka-latun-1691604131/?at=k2toylvz8cj6DZOxiZ4xWYVsJWmXjYcpWk1DOiZvGY7
+2025-06-14 20:11:59,122 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-polnoprohodnoy-pryamoy-giacomini-007-1314-dn15-pn35-1-2-vr-vr-ruchka-babochka-latun-1691604131/?at=k2toylvz8cj6DZOxiZ4xWYVsJWmXjYcpWk1DOiZvGY7
+2025-06-14 20:11:59,157 - INFO - Обработка товара 29/2340: https://ozon.ru/product/kran-gazovyy-sharovoy-3-4-d20-gayka-shtutser-babochka-baz-1243038868/?at=Eqtk8yj5Vh1Y84ZrtPO1795tPog5jlhl7yJNjfXQk2D7
+2025-06-14 20:11:59,158 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-gazovyy-sharovoy-3-4-d20-gayka-shtutser-babochka-baz-1243038868/?at=Eqtk8yj5Vh1Y84ZrtPO1795tPog5jlhl7yJNjfXQk2D7
+2025-06-14 20:12:04,216 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-gazovyy-sharovoy-3-4-d20-gayka-shtutser-babochka-baz-1243038868/?at=Eqtk8yj5Vh1Y84ZrtPO1795tPog5jlhl7yJNjfXQk2D7
+2025-06-14 20:12:04,251 - INFO - Обработка товара 30/2340: https://ozon.ru/product/kran-sharovoy-ppr-standartnoprohodnoy-redutsirovannyy-rtp-d40-mm-kran-sharovyy-fiting-dlya-trub-897891850/?at=x6tP58jonswB22WJcp3Azm5iZm2Xylivg9n5lux1GQyW
+2025-06-14 20:12:04,252 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-ppr-standartnoprohodnoy-redutsirovannyy-rtp-d40-mm-kran-sharovyy-fiting-dlya-trub-897891850/?at=x6tP58jonswB22WJcp3Azm5iZm2Xylivg9n5lux1GQyW
+2025-06-14 20:12:09,464 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-ppr-standartnoprohodnoy-redutsirovannyy-rtp-d40-mm-kran-sharovyy-fiting-dlya-trub-897891850/?at=x6tP58jonswB22WJcp3Azm5iZm2Xylivg9n5lux1GQyW
+2025-06-14 20:12:09,501 - INFO - Запись данных в products.xlsx
+2025-06-14 20:12:13,312 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:12:13,379 - INFO - Обработка товара 31/2340: https://ozon.ru/product/kran-sharovyy-1-latunnyy-s-amerikankoy-2063150110/?at=NOtwqLpmDclE2AP7HX75XXPCN0zZErIrgqvGQtRV0mgo
+2025-06-14 20:12:13,379 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-latunnyy-s-amerikankoy-2063150110/?at=NOtwqLpmDclE2AP7HX75XXPCN0zZErIrgqvGQtRV0mgo
+2025-06-14 20:12:17,264 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-latunnyy-s-amerikankoy-2063150110/?at=NOtwqLpmDclE2AP7HX75XXPCN0zZErIrgqvGQtRV0mgo
+2025-06-14 20:12:17,342 - INFO - Обработка товара 32/2340: https://ozon.ru/product/kran-polipropilenovyy-20-1-sht-1539554773/?at=gpt416JZOhyR94nECJ87YWxC5GqjlrIQPQzVLu7RPQWL
+2025-06-14 20:12:17,344 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-polipropilenovyy-20-1-sht-1539554773/?at=gpt416JZOhyR94nECJ87YWxC5GqjlrIQPQzVLu7RPQWL
+2025-06-14 20:12:21,062 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-polipropilenovyy-20-1-sht-1539554773/?at=gpt416JZOhyR94nECJ87YWxC5GqjlrIQPQzVLu7RPQWL
+2025-06-14 20:12:21,094 - INFO - Обработка товара 33/2340: https://ozon.ru/product/kran-sharovoy-vp-nr-stalnoy-rychag-effebi-art-412-pn63-1-2-793535895/?at=QktJ1VLjMcvQLYZBcpnZDZRf19xy0GSVWRBPYtoyqoP2
+2025-06-14 20:12:21,095 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-vp-nr-stalnoy-rychag-effebi-art-412-pn63-1-2-793535895/?at=QktJ1VLjMcvQLYZBcpnZDZRf19xy0GSVWRBPYtoyqoP2
+2025-06-14 20:12:25,615 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-vp-nr-stalnoy-rychag-effebi-art-412-pn63-1-2-793535895/?at=QktJ1VLjMcvQLYZBcpnZDZRf19xy0GSVWRBPYtoyqoP2
+2025-06-14 20:12:25,650 - INFO - Обработка товара 34/2340: https://ozon.ru/product/kran-sharovoy-30-bar-diametr-3-4-praktichnyy-1957141430/?at=Y7tjWYX2Ec0ypQZWtgO91Z3cxyg0gOI2M3m31h7qM2Yw
+2025-06-14 20:12:25,651 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-30-bar-diametr-3-4-praktichnyy-1957141430/?at=Y7tjWYX2Ec0ypQZWtgO91Z3cxyg0gOI2M3m31h7qM2Yw
+2025-06-14 20:12:28,793 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-30-bar-diametr-3-4-praktichnyy-1957141430/?at=Y7tjWYX2Ec0ypQZWtgO91Z3cxyg0gOI2M3m31h7qM2Yw
+2025-06-14 20:12:28,838 - INFO - Обработка товара 35/2340: https://ozon.ru/product/kran-sharovyy-dlya-vody-16h1-2-tsanga-gayka-babochka-6-sht-1966424102/?at=Eqtk8yj5VhXrX5r1cq8ly1PILnB33nHMAZKoEUP1YMMK
+2025-06-14 20:12:28,839 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-16h1-2-tsanga-gayka-babochka-6-sht-1966424102/?at=Eqtk8yj5VhXrX5r1cq8ly1PILnB33nHMAZKoEUP1YMMK
+2025-06-14 20:12:32,300 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-16h1-2-tsanga-gayka-babochka-6-sht-1966424102/?at=Eqtk8yj5VhXrX5r1cq8ly1PILnB33nHMAZKoEUP1YMMK
+2025-06-14 20:12:32,331 - INFO - Обработка товара 36/2340: https://ozon.ru/product/kran-sharovyy-3-4-babochka-vr-nr-iz-termostoykogo-abs-plastika-2sht-v-komplekte-1579707224/?at=jYtZ4E0QKCO8RjyAt1LEwJxs9YE8Pquny1XnXcYNvQn8
+2025-06-14 20:12:32,332 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-3-4-babochka-vr-nr-iz-termostoykogo-abs-plastika-2sht-v-komplekte-1579707224/?at=jYtZ4E0QKCO8RjyAt1LEwJxs9YE8Pquny1XnXcYNvQn8
+2025-06-14 20:12:35,676 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-3-4-babochka-vr-nr-iz-termostoykogo-abs-plastika-2sht-v-komplekte-1579707224/?at=jYtZ4E0QKCO8RjyAt1LEwJxs9YE8Pquny1XnXcYNvQn8
+2025-06-14 20:12:35,706 - INFO - Обработка товара 37/2340: https://ozon.ru/product/kran-s-elektroprivodom-gidrolock-ultimate-12v-bugatti-1-2-bs-s-filtrom-1387502272/?at=jYtZ4E0QKC2KjX37s5Y21WJT35nNGxTAJKwZ2tYNLKrR
+2025-06-14 20:12:35,706 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-s-elektroprivodom-gidrolock-ultimate-12v-bugatti-1-2-bs-s-filtrom-1387502272/?at=jYtZ4E0QKC2KjX37s5Y21WJT35nNGxTAJKwZ2tYNLKrR
+2025-06-14 20:12:38,575 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-s-elektroprivodom-gidrolock-ultimate-12v-bugatti-1-2-bs-s-filtrom-1387502272/?at=jYtZ4E0QKC2KjX37s5Y21WJT35nNGxTAJKwZ2tYNLKrR
+2025-06-14 20:12:38,605 - INFO - Обработка товара 38/2340: https://ozon.ru/product/kran-sharovyy-s-sadovym-vypusknym-kolenom-alcapipe-ppr-20mm-ab273020000-720748816/?at=QktJ1VLjMcMELXKBCznPqnvTAoKvGGH5EO1MxI9YnRW8
+2025-06-14 20:12:38,606 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-s-sadovym-vypusknym-kolenom-alcapipe-ppr-20mm-ab273020000-720748816/?at=QktJ1VLjMcMELXKBCznPqnvTAoKvGGH5EO1MxI9YnRW8
+2025-06-14 20:12:41,793 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-s-sadovym-vypusknym-kolenom-alcapipe-ppr-20mm-ab273020000-720748816/?at=QktJ1VLjMcMELXKBCznPqnvTAoKvGGH5EO1MxI9YnRW8
+2025-06-14 20:12:41,823 - INFO - Обработка товара 39/2340: https://ozon.ru/product/kran-uglovoy-uglovoy-ventil-hromirovannyy-s-otrazhatelem-st-santrade-1-2-h-1-2-dlya-1016182586/?at=79tnXMY14t82XmJEHYAOB2wTon6A9NF03DZAEC2vwA0g
+2025-06-14 20:12:41,823 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-uglovoy-uglovoy-ventil-hromirovannyy-s-otrazhatelem-st-santrade-1-2-h-1-2-dlya-1016182586/?at=79tnXMY14t82XmJEHYAOB2wTon6A9NF03DZAEC2vwA0g
+2025-06-14 20:12:44,937 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-uglovoy-uglovoy-ventil-hromirovannyy-s-otrazhatelem-st-santrade-1-2-h-1-2-dlya-1016182586/?at=79tnXMY14t82XmJEHYAOB2wTon6A9NF03DZAEC2vwA0g
+2025-06-14 20:12:44,967 - INFO - Обработка товара 40/2340: https://ozon.ru/product/kran-sharovyy-dlya-vody-20h1-2-tsanga-shtutser-babochka-4-sht-1966503978/?at=08tYXvzwqcqV9O7jtMpq81ri8g59mpiZ3WxMEUmK32nE
+2025-06-14 20:12:44,967 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-20h1-2-tsanga-shtutser-babochka-4-sht-1966503978/?at=08tYXvzwqcqV9O7jtMpq81ri8g59mpiZ3WxMEUmK32nE
+2025-06-14 20:12:49,258 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-20h1-2-tsanga-shtutser-babochka-4-sht-1966503978/?at=08tYXvzwqcqV9O7jtMpq81ri8g59mpiZ3WxMEUmK32nE
+2025-06-14 20:12:49,314 - INFO - Запись данных в products.xlsx
+2025-06-14 20:12:53,165 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:12:53,232 - INFO - Обработка товара 41/2340: https://ozon.ru/product/kran-dlya-gaza-3-4-sharovyy-valgas-valtec-latunnyy-gazovyy-vnutrenney-rezboy-dlya-sistem-otopleniya-1419083328/?at=A6tGK05ALc2M6G2ohVz1zkVuvo1w3rsAJQDp7UzJyVj2
+2025-06-14 20:12:53,232 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-dlya-gaza-3-4-sharovyy-valgas-valtec-latunnyy-gazovyy-vnutrenney-rezboy-dlya-sistem-otopleniya-1419083328/?at=A6tGK05ALc2M6G2ohVz1zkVuvo1w3rsAJQDp7UzJyVj2
+2025-06-14 20:12:56,306 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-dlya-gaza-3-4-sharovyy-valgas-valtec-latunnyy-gazovyy-vnutrenney-rezboy-dlya-sistem-otopleniya-1419083328/?at=A6tGK05ALc2M6G2ohVz1zkVuvo1w3rsAJQDp7UzJyVj2
+2025-06-14 20:12:56,336 - INFO - Обработка товара 42/2340: https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-vnutrenney-rezboy-2sht-2063147433/?at=PjtJ1gnE8c156vMgfBR8ZPYuQ04qZ2tnYv9qpF4LOQ2D
+2025-06-14 20:12:56,336 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-vnutrenney-rezboy-2sht-2063147433/?at=PjtJ1gnE8c156vMgfBR8ZPYuQ04qZ2tnYv9qpF4LOQ2D
+2025-06-14 20:12:59,208 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-vnutrenney-rezboy-2sht-2063147433/?at=PjtJ1gnE8c156vMgfBR8ZPYuQ04qZ2tnYv9qpF4LOQ2D
+2025-06-14 20:12:59,249 - INFO - Обработка товара 43/2340: https://ozon.ru/product/kran-sharovyy-3-4-latunnyy-s-vnutrenney-i-naruzhnoy-rezboy-2124224206/?at=gpt416JZOhoM2ynMSRxPgW1C5KgKBwinNQvBMcXzBYgJ
+2025-06-14 20:12:59,249 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-3-4-latunnyy-s-vnutrenney-i-naruzhnoy-rezboy-2124224206/?at=gpt416JZOhoM2ynMSRxPgW1C5KgKBwinNQvBMcXzBYgJ
+2025-06-14 20:13:02,252 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-3-4-latunnyy-s-vnutrenney-i-naruzhnoy-rezboy-2124224206/?at=gpt416JZOhoM2ynMSRxPgW1C5KgKBwinNQvBMcXzBYgJ
+2025-06-14 20:13:02,287 - INFO - Обработка товара 44/2340: https://ozon.ru/product/kran-sharovyy-oventrop-optibal-1-2-nv-1239355547/?at=36tWg3vz6h5KJ915srJ7WzXIxO1WnlSx5kLQZHqGW7V6
+2025-06-14 20:13:02,287 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-oventrop-optibal-1-2-nv-1239355547/?at=36tWg3vz6h5KJ915srJ7WzXIxO1WnlSx5kLQZHqGW7V6
+2025-06-14 20:13:05,494 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-oventrop-optibal-1-2-nv-1239355547/?at=36tWg3vz6h5KJ915srJ7WzXIxO1WnlSx5kLQZHqGW7V6
+2025-06-14 20:13:05,531 - INFO - Обработка товара 45/2340: https://ozon.ru/product/kran-sharovyy-1-du-25-v-v-ruchka-babochka-latun-2213767013/?at=OgtELYkmzckBgjw6hYOkk8OfvmojGmhA449YyCQ9WXKA
+2025-06-14 20:13:05,532 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-du-25-v-v-ruchka-babochka-latun-2213767013/?at=OgtELYkmzckBgjw6hYOkk8OfvmojGmhA449YyCQ9WXKA
+2025-06-14 20:13:08,451 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-du-25-v-v-ruchka-babochka-latun-2213767013/?at=OgtELYkmzckBgjw6hYOkk8OfvmojGmhA449YyCQ9WXKA
+2025-06-14 20:13:08,482 - INFO - Обработка товара 46/2340: https://ozon.ru/product/kran-vodorazbornyy-uglovoy-dlya-stiralnoy-mashiny-i-podklyucheniya-santehnicheskih-priborov-1970650228/?at=6WtZ6kJYjCwVQZKZujqB4v9hBklpl3TlA5DrLcPYAVk3
+2025-06-14 20:13:08,482 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-vodorazbornyy-uglovoy-dlya-stiralnoy-mashiny-i-podklyucheniya-santehnicheskih-priborov-1970650228/?at=6WtZ6kJYjCwVQZKZujqB4v9hBklpl3TlA5DrLcPYAVk3
+2025-06-14 20:13:12,398 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-vodorazbornyy-uglovoy-dlya-stiralnoy-mashiny-i-podklyucheniya-santehnicheskih-priborov-1970650228/?at=6WtZ6kJYjCwVQZKZujqB4v9hBklpl3TlA5DrLcPYAVk3
+2025-06-14 20:13:12,451 - INFO - Обработка товара 47/2340: https://ozon.ru/product/kran-sharovoy-1-2-vn-r-valtec-compact-s-rukoyatkoy-babochkoy-latunnaya-zapornaya-armatura-du-1771434167/?at=RltyDYXqjhj88y8gI7EG4qOFYpKXRxTLJR6MwFRZyD10
+2025-06-14 20:13:12,451 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-1-2-vn-r-valtec-compact-s-rukoyatkoy-babochkoy-latunnaya-zapornaya-armatura-du-1771434167/?at=RltyDYXqjhj88y8gI7EG4qOFYpKXRxTLJR6MwFRZyD10
+2025-06-14 20:13:16,550 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-1-2-vn-r-valtec-compact-s-rukoyatkoy-babochkoy-latunnaya-zapornaya-armatura-du-1771434167/?at=RltyDYXqjhj88y8gI7EG4qOFYpKXRxTLJR6MwFRZyD10
+2025-06-14 20:13:16,637 - INFO - Обработка товара 48/2340: https://ozon.ru/product/kran-sharovoy-kompressionnyy-polipropilen-25-dlya-polietilenovyh-trub-rtp-1759035155/?at=PjtJ1gnE8cZOBG9RcVvRZQGsxOqM1ztGpY4DtELrnmQ
+2025-06-14 20:13:16,637 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-kompressionnyy-polipropilen-25-dlya-polietilenovyh-trub-rtp-1759035155/?at=PjtJ1gnE8cZOBG9RcVvRZQGsxOqM1ztGpY4DtELrnmQ
+2025-06-14 20:13:19,978 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-kompressionnyy-polipropilen-25-dlya-polietilenovyh-trub-rtp-1759035155/?at=PjtJ1gnE8cZOBG9RcVvRZQGsxOqM1ztGpY4DtELrnmQ
+2025-06-14 20:13:20,067 - INFO - Обработка товара 49/2340: https://ozon.ru/product/kran-sharovoy-uglovoy-bugatti-oregon-594-1-2-s-amerikankoy-2229259679/?at=MZtvyPY4MCPvEQl8hPp1xyxF6Lq0qXuDRWzEGTWB34wl
+2025-06-14 20:13:20,069 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-uglovoy-bugatti-oregon-594-1-2-s-amerikankoy-2229259679/?at=MZtvyPY4MCPvEQl8hPp1xyxF6Lq0qXuDRWzEGTWB34wl
+2025-06-14 20:13:22,793 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-uglovoy-bugatti-oregon-594-1-2-s-amerikankoy-2229259679/?at=MZtvyPY4MCPvEQl8hPp1xyxF6Lq0qXuDRWzEGTWB34wl
+2025-06-14 20:13:22,830 - INFO - Обработка товара 50/2340: https://ozon.ru/product/ventil-polipropilenovyy-d-40-dlya-pp-trub-pod-svarku-belyy-1880621082/?at=GRt2Nn95KiMzo9OGFml6lZ9C1vvX8Ku1PPAk7UYZLMNA
+2025-06-14 20:13:22,831 - INFO - Попытка 1/3 обработки https://ozon.ru/product/ventil-polipropilenovyy-d-40-dlya-pp-trub-pod-svarku-belyy-1880621082/?at=GRt2Nn95KiMzo9OGFml6lZ9C1vvX8Ku1PPAk7UYZLMNA
+2025-06-14 20:13:26,212 - INFO - Успешно собраны данные для https://ozon.ru/product/ventil-polipropilenovyy-d-40-dlya-pp-trub-pod-svarku-belyy-1880621082/?at=GRt2Nn95KiMzo9OGFml6lZ9C1vvX8Ku1PPAk7UYZLMNA
+2025-06-14 20:13:26,268 - INFO - Запись данных в products.xlsx
+2025-06-14 20:13:30,328 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:13:30,400 - INFO - Обработка товара 51/2340: https://ozon.ru/product/kran-sharovoy-s-amerikankoy-ruchka-plastmassovaya-vr-nr-1-2-1864122789/?at=99trWnjELcQvqAZxt1klmR4fW2ZEq1hzOMkxmi6kB87z
+2025-06-14 20:13:30,400 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-s-amerikankoy-ruchka-plastmassovaya-vr-nr-1-2-1864122789/?at=99trWnjELcQvqAZxt1klmR4fW2ZEq1hzOMkxmi6kB87z
+2025-06-14 20:13:33,680 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-s-amerikankoy-ruchka-plastmassovaya-vr-nr-1-2-1864122789/?at=99trWnjELcQvqAZxt1klmR4fW2ZEq1hzOMkxmi6kB87z
+2025-06-14 20:13:33,779 - INFO - Обработка товара 52/2340: https://ozon.ru/product/kran-sharovoy-polipropilenovyy-2sht-pprc-meerplast-25h3-4-pryamoy-s-nakidnoy-gaykoy-amerikankoy-800268454/?at=57twP81L5clm2O8QSxW0gW2ClRgzkjSWmN28vUmg2k1G
+2025-06-14 20:13:33,780 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-polipropilenovyy-2sht-pprc-meerplast-25h3-4-pryamoy-s-nakidnoy-gaykoy-amerikankoy-800268454/?at=57twP81L5clm2O8QSxW0gW2ClRgzkjSWmN28vUmg2k1G
+2025-06-14 20:13:37,835 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-polipropilenovyy-2sht-pprc-meerplast-25h3-4-pryamoy-s-nakidnoy-gaykoy-amerikankoy-800268454/?at=57twP81L5clm2O8QSxW0gW2ClRgzkjSWmN28vUmg2k1G
+2025-06-14 20:13:37,869 - INFO - Обработка товара 53/2340: https://ozon.ru/product/pnd-kran-32-mm-1-vr-razemnyy-1022781816/?at=LZtlDq2nycjqVjqBC1wzVvMHRY18Vqs57W3VnH0rkjQ6
+2025-06-14 20:13:37,869 - INFO - Попытка 1/3 обработки https://ozon.ru/product/pnd-kran-32-mm-1-vr-razemnyy-1022781816/?at=LZtlDq2nycjqVjqBC1wzVvMHRY18Vqs57W3VnH0rkjQ6
+2025-06-14 20:13:41,085 - INFO - Успешно собраны данные для https://ozon.ru/product/pnd-kran-32-mm-1-vr-razemnyy-1022781816/?at=LZtlDq2nycjqVjqBC1wzVvMHRY18Vqs57W3VnH0rkjQ6
+2025-06-14 20:13:41,120 - INFO - Обработка товара 54/2340: https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-stm-standart-s-filtrom-ruchka-rychag-4-sht-1966279618/?at=mqtkoXqNBhVG0J3KHorQkrEf3w47y4hlE74WkfZ716ZK
+2025-06-14 20:13:41,121 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-stm-standart-s-filtrom-ruchka-rychag-4-sht-1966279618/?at=mqtkoXqNBhVG0J3KHorQkrEf3w47y4hlE74WkfZ716ZK
+2025-06-14 20:13:45,459 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-1-2-stm-standart-s-filtrom-ruchka-rychag-4-sht-1966279618/?at=mqtkoXqNBhVG0J3KHorQkrEf3w47y4hlE74WkfZ716ZK
+2025-06-14 20:13:45,534 - INFO - Обработка товара 55/2340: https://ozon.ru/product/kranik-sharovyy-malyy-1-8nr-6mm-1967695055/?at=99trWnjELc1r23qBhxnxv0ZIDZyWypIKQgrqQiwKggl9
+2025-06-14 20:13:45,534 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kranik-sharovyy-malyy-1-8nr-6mm-1967695055/?at=99trWnjELc1r23qBhxnxv0ZIDZyWypIKQgrqQiwKggl9
+2025-06-14 20:13:49,078 - INFO - Успешно собраны данные для https://ozon.ru/product/kranik-sharovyy-malyy-1-8nr-6mm-1967695055/?at=99trWnjELc1r23qBhxnxv0ZIDZyWypIKQgrqQiwKggl9
+2025-06-14 20:13:49,119 - INFO - Обработка товара 56/2340: https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-naruzhnoy-rezboy-rychag-2sht-2082221667/?at=XQtkPAZoVhQBK47oCpOPvvOsgXG3Axs9r9Yr4SkP98Z0
+2025-06-14 20:13:49,119 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-naruzhnoy-rezboy-rychag-2sht-2082221667/?at=XQtkPAZoVhQBK47oCpOPvvOsgXG3Axs9r9Yr4SkP98Z0
+2025-06-14 20:13:52,185 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-1-2-latunnyy-s-naruzhnoy-rezboy-rychag-2sht-2082221667/?at=XQtkPAZoVhQBK47oCpOPvvOsgXG3Axs9r9Yr4SkP98Z0
+2025-06-14 20:13:52,239 - INFO - Обработка товара 57/2340: https://ozon.ru/product/kran-sharovyy-bugatti-oregon-1-vr-vr-951814410/?at=J8tgWOoE3IyY6o3ytr97z3yhqNNwkTKYnyGviYOpyq7
+2025-06-14 20:13:52,240 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-bugatti-oregon-1-vr-vr-951814410/?at=J8tgWOoE3IyY6o3ytr97z3yhqNNwkTKYnyGviYOpyq7
+2025-06-14 20:13:56,034 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-bugatti-oregon-1-vr-vr-951814410/?at=J8tgWOoE3IyY6o3ytr97z3yhqNNwkTKYnyGviYOpyq7
+2025-06-14 20:13:56,073 - INFO - Обработка товара 58/2340: https://ozon.ru/product/kran-sharovoy-kompressionnyy-polipropilen-20-dlya-polietilenovyh-trub-rtp-1759035231/?at=oZt6V9m3jF0ByKvYcDp7Z9Rf7jLn37SW8KVpJTZJYq3M
+2025-06-14 20:13:56,074 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-kompressionnyy-polipropilen-20-dlya-polietilenovyh-trub-rtp-1759035231/?at=oZt6V9m3jF0ByKvYcDp7Z9Rf7jLn37SW8KVpJTZJYq3M
+2025-06-14 20:14:00,255 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-kompressionnyy-polipropilen-20-dlya-polietilenovyh-trub-rtp-1759035231/?at=oZt6V9m3jF0ByKvYcDp7Z9Rf7jLn37SW8KVpJTZJYq3M
+2025-06-14 20:14:00,348 - INFO - Обработка товара 59/2340: https://ozon.ru/product/sharovoy-kran-s-elektroprivodom-2-dyuyma-220-v-3-provodnoy-2-tochechnyy-latunnyy-elektricheskiy-1771831493/?at=w0tgE6n3JI3xoKVmHvr1xoNSX5BXAGHPgZjJzh7Rj0K9
+2025-06-14 20:14:00,348 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-s-elektroprivodom-2-dyuyma-220-v-3-provodnoy-2-tochechnyy-latunnyy-elektricheskiy-1771831493/?at=w0tgE6n3JI3xoKVmHvr1xoNSX5BXAGHPgZjJzh7Rj0K9
+2025-06-14 20:14:03,487 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-s-elektroprivodom-2-dyuyma-220-v-3-provodnoy-2-tochechnyy-latunnyy-elektricheskiy-1771831493/?at=w0tgE6n3JI3xoKVmHvr1xoNSX5BXAGHPgZjJzh7Rj0K9
+2025-06-14 20:14:03,525 - INFO - Обработка товара 60/2340: https://ozon.ru/product/ruchka-babochka-dlya-krana-krasnaya-726303223/?at=Eqtk8yj5VhkOOOPlSmGPQ4pHoz19OYtEpNZm4uYo9O42
+2025-06-14 20:14:03,525 - INFO - Попытка 1/3 обработки https://ozon.ru/product/ruchka-babochka-dlya-krana-krasnaya-726303223/?at=Eqtk8yj5VhkOOOPlSmGPQ4pHoz19OYtEpNZm4uYo9O42
+2025-06-14 20:14:06,862 - INFO - Успешно собраны данные для https://ozon.ru/product/ruchka-babochka-dlya-krana-krasnaya-726303223/?at=Eqtk8yj5VhkOOOPlSmGPQ4pHoz19OYtEpNZm4uYo9O42
+2025-06-14 20:14:06,925 - INFO - Запись данных в products.xlsx
+2025-06-14 20:14:11,324 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:14:11,391 - INFO - Обработка товара 61/2340: https://ozon.ru/product/kran-otsechnoy-dlinnaya-ruchka-john-guest-3-8-1545179843/?at=28t02rQzPCqZPpGzH460JoDI85wj8jcrR4xQRflE0M2V
+2025-06-14 20:14:11,391 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-otsechnoy-dlinnaya-ruchka-john-guest-3-8-1545179843/?at=28t02rQzPCqZPpGzH460JoDI85wj8jcrR4xQRflE0M2V
+2025-06-14 20:14:14,320 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-otsechnoy-dlinnaya-ruchka-john-guest-3-8-1545179843/?at=28t02rQzPCqZPpGzH460JoDI85wj8jcrR4xQRflE0M2V
+2025-06-14 20:14:14,390 - INFO - Обработка товара 62/2340: https://ozon.ru/product/sharovoy-kran-bugatti-s-amerikankoy-oregon-322-1324131201/?at=46tR2PxKMHDWByMJTgNK75rHXQjyB1cLBKR9PI53ERPw
+2025-06-14 20:14:14,391 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-bugatti-s-amerikankoy-oregon-322-1324131201/?at=46tR2PxKMHDWByMJTgNK75rHXQjyB1cLBKR9PI53ERPw
+2025-06-14 20:14:17,502 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-bugatti-s-amerikankoy-oregon-322-1324131201/?at=46tR2PxKMHDWByMJTgNK75rHXQjyB1cLBKR9PI53ERPw
+2025-06-14 20:14:17,543 - INFO - Обработка товара 63/2340: https://ozon.ru/product/kran-otsekatel-sharovoy-s-drenazhem-dlya-podklyucheniya-1-v-g-valogin-vg-110103-1256352074/?at=MZtvyPY4MCNXRJk3IgmD3N7hoY7AJ7iW3Okk0F2kJlLj
+2025-06-14 20:14:17,543 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-otsekatel-sharovoy-s-drenazhem-dlya-podklyucheniya-1-v-g-valogin-vg-110103-1256352074/?at=MZtvyPY4MCNXRJk3IgmD3N7hoY7AJ7iW3Okk0F2kJlLj
+2025-06-14 20:14:20,563 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-otsekatel-sharovoy-s-drenazhem-dlya-podklyucheniya-1-v-g-valogin-vg-110103-1256352074/?at=MZtvyPY4MCNXRJk3IgmD3N7hoY7AJ7iW3Okk0F2kJlLj
+2025-06-14 20:14:20,598 - INFO - Обработка товара 64/2340: https://ozon.ru/product/bugatti-kran-sharovyy-3-4-g-sh-ruchka-1511758385/?at=RltyDYXqjhrD6MLNIm8z9yOFoNMpoACOXOxYMfjwxXPn
+2025-06-14 20:14:20,598 - INFO - Попытка 1/3 обработки https://ozon.ru/product/bugatti-kran-sharovyy-3-4-g-sh-ruchka-1511758385/?at=RltyDYXqjhrD6MLNIm8z9yOFoNMpoACOXOxYMfjwxXPn
+2025-06-14 20:14:23,277 - INFO - Успешно собраны данные для https://ozon.ru/product/bugatti-kran-sharovyy-3-4-g-sh-ruchka-1511758385/?at=RltyDYXqjhrD6MLNIm8z9yOFoNMpoACOXOxYMfjwxXPn
+2025-06-14 20:14:23,311 - INFO - Обработка товара 65/2340: https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA
+2025-06-14 20:14:23,312 - INFO - Попытка 1/3 обработки https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA
+2025-06-14 20:14:29,840 - WARNING - Ошибка при обработке https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA (попытка 1): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:14:34,873 - INFO - Попытка 2/3 обработки https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA
+2025-06-14 20:14:41,056 - WARNING - Ошибка при обработке https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA (попытка 2): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:14:46,090 - INFO - Попытка 3/3 обработки https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA
+2025-06-14 20:14:52,089 - WARNING - Ошибка при обработке https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA (попытка 3): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:14:52,089 - ERROR - Не удалось обработать https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCYn9AAuMkD2fWL2W_9SKcWDLJGKz0lHH77t_VT4JvTjN2ZPxJn6os-qC2Ta7KCaoQp_UKwUSfM1Zd6xEHny61lIIE2Zy9zCcKYPVoDvs46npnLwe2yYaQee2MiHN6llA после 3 попыток
+2025-06-14 20:14:52,119 - INFO - Обработка товара 66/2340: https://ozon.ru/product/kran-sharovoy-40-bar-diametr-3-4-1957137269/?at=K8tZyKk5zCj4mKgipy4YGBSm2J550sykkxVzuExM8oY
+2025-06-14 20:14:52,119 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-40-bar-diametr-3-4-1957137269/?at=K8tZyKk5zCj4mKgipy4YGBSm2J550sykkxVzuExM8oY
+2025-06-14 20:14:54,934 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovoy-40-bar-diametr-3-4-1957137269/?at=K8tZyKk5zCj4mKgipy4YGBSm2J550sykkxVzuExM8oY
+2025-06-14 20:14:54,973 - INFO - Обработка товара 67/2340: https://ozon.ru/product/sharovoy-kran-baz-11b27p1-dn15-vr-vr-rychag-pn40-1743932682/?at=6WtZ6kJYjCxYRO4DFB2mnXwC1OY3V0sYjx8oMtOn1xrD
+2025-06-14 20:14:54,973 - INFO - Попытка 1/3 обработки https://ozon.ru/product/sharovoy-kran-baz-11b27p1-dn15-vr-vr-rychag-pn40-1743932682/?at=6WtZ6kJYjCxYRO4DFB2mnXwC1OY3V0sYjx8oMtOn1xrD
+2025-06-14 20:14:58,039 - INFO - Успешно собраны данные для https://ozon.ru/product/sharovoy-kran-baz-11b27p1-dn15-vr-vr-rychag-pn40-1743932682/?at=6WtZ6kJYjCxYRO4DFB2mnXwC1OY3V0sYjx8oMtOn1xrD
+2025-06-14 20:14:58,088 - INFO - Обработка товара 68/2340: https://ozon.ru/product/kran-sharovyy-dlya-vody-20h1-2-tsanga-shtutser-babochka-3-sht-1966519292/?at=pZtp0kZ31U5LJWxKc2EWwpAS2QQG1kspQzX34hQPjE7v
+2025-06-14 20:14:58,098 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-dlya-vody-20h1-2-tsanga-shtutser-babochka-3-sht-1966519292/?at=pZtp0kZ31U5LJWxKc2EWwpAS2QQG1kspQzX34hQPjE7v
+2025-06-14 20:15:01,491 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-dlya-vody-20h1-2-tsanga-shtutser-babochka-3-sht-1966519292/?at=pZtp0kZ31U5LJWxKc2EWwpAS2QQG1kspQzX34hQPjE7v
+2025-06-14 20:15:01,627 - INFO - Обработка товара 69/2340: https://ozon.ru/product/kran-polipropilenovyy-20-mm-1-2-1-sht-sharovoy-kombinirovannyy-naruzhnaya-rezba-1944420162/?at=PjtJ1gnE8c6QG9lKcBlvln6hqmWGJKU19ArogFW9L01g
+2025-06-14 20:15:01,630 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-polipropilenovyy-20-mm-1-2-1-sht-sharovoy-kombinirovannyy-naruzhnaya-rezba-1944420162/?at=PjtJ1gnE8c6QG9lKcBlvln6hqmWGJKU19ArogFW9L01g
+2025-06-14 20:15:06,012 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-polipropilenovyy-20-mm-1-2-1-sht-sharovoy-kombinirovannyy-naruzhnaya-rezba-1944420162/?at=PjtJ1gnE8c6QG9lKcBlvln6hqmWGJKU19ArogFW9L01g
+2025-06-14 20:15:06,050 - INFO - Обработка товара 70/2340: https://ozon.ru/product/gallop-kran-sharovoy-dn-20-standart-232-babochka-s-udlinitelem-1597474862/?at=BrtzXqN5pHO17YAxtkxLk2xIJ5BRqxiJD0X7lFDMDOGD
+2025-06-14 20:15:06,050 - INFO - Попытка 1/3 обработки https://ozon.ru/product/gallop-kran-sharovoy-dn-20-standart-232-babochka-s-udlinitelem-1597474862/?at=BrtzXqN5pHO17YAxtkxLk2xIJ5BRqxiJD0X7lFDMDOGD
+2025-06-14 20:15:09,400 - INFO - Успешно собраны данные для https://ozon.ru/product/gallop-kran-sharovoy-dn-20-standart-232-babochka-s-udlinitelem-1597474862/?at=BrtzXqN5pHO17YAxtkxLk2xIJ5BRqxiJD0X7lFDMDOGD
+2025-06-14 20:15:09,438 - INFO - Запись данных в products.xlsx
+2025-06-14 20:15:13,237 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:15:13,335 - INFO - Обработка товара 71/2340: https://ozon.ru/product/kran-sharovyy-pnd-1-2h1-2-vnutrennyaya-rezba-valfex-1sht-2035852606/?at=16tLAgXN2cWOv9X9hZOGvj5cGn6yljhyvkWQZsoAQo1q
+2025-06-14 20:15:13,335 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-pnd-1-2h1-2-vnutrennyaya-rezba-valfex-1sht-2035852606/?at=16tLAgXN2cWOv9X9hZOGvj5cGn6yljhyvkWQZsoAQo1q
+2025-06-14 20:15:16,567 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-pnd-1-2h1-2-vnutrennyaya-rezba-valfex-1sht-2035852606/?at=16tLAgXN2cWOv9X9hZOGvj5cGn6yljhyvkWQZsoAQo1q
+2025-06-14 20:15:16,600 - INFO - Обработка товара 72/2340: https://ozon.ru/product/kran-dlya-bani-hamama-dlya-dachi-s-keramicheskoy-ruchkoy-1167467453/?at=83tB53gpDI14kZAxCLr7YQquM9JKrZcByoll7c4V0Zw9
+2025-06-14 20:15:16,600 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-dlya-bani-hamama-dlya-dachi-s-keramicheskoy-ruchkoy-1167467453/?at=83tB53gpDI14kZAxCLr7YQquM9JKrZcByoll7c4V0Zw9
+2025-06-14 20:15:20,081 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-dlya-bani-hamama-dlya-dachi-s-keramicheskoy-ruchkoy-1167467453/?at=83tB53gpDI14kZAxCLr7YQquM9JKrZcByoll7c4V0Zw9
+2025-06-14 20:15:20,161 - INFO - Обработка товара 73/2340: https://ozon.ru/product/kran-uglovoy-s-amerikankoy-3-4-bab-belyy-vieir-1767120218/?at=A6tGK05ALcMXwvm7fEvm1lgtwwqEyQS88y7Xlsqp6V3X
+2025-06-14 20:15:20,162 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-uglovoy-s-amerikankoy-3-4-bab-belyy-vieir-1767120218/?at=A6tGK05ALcMXwvm7fEvm1lgtwwqEyQS88y7Xlsqp6V3X
+2025-06-14 20:15:25,075 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-uglovoy-s-amerikankoy-3-4-bab-belyy-vieir-1767120218/?at=A6tGK05ALcMXwvm7fEvm1lgtwwqEyQS88y7Xlsqp6V3X
+2025-06-14 20:15:25,191 - INFO - Обработка товара 74/2340: https://ozon.ru/product/kran-sharovyy-vodorazbornyy-s-nosikom-tim-de1224f-1-2-vr-1856846022/?at=A6tGK05ALcZWKYxQSVOALk3igZMzN2UBKN31RiMoqmZx
+2025-06-14 20:15:25,194 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-vodorazbornyy-s-nosikom-tim-de1224f-1-2-vr-1856846022/?at=A6tGK05ALcZWKYxQSVOALk3igZMzN2UBKN31RiMoqmZx
+2025-06-14 20:15:28,431 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-vodorazbornyy-s-nosikom-tim-de1224f-1-2-vr-1856846022/?at=A6tGK05ALcZWKYxQSVOALk3igZMzN2UBKN31RiMoqmZx
+2025-06-14 20:15:28,474 - INFO - Обработка товара 75/2340: https://ozon.ru/product/kran-kompressionnyy-dlya-pe-trub-20-8-sht-1972322546/?at=Eqtk8yj5Vhx77qqqHXgWk8lUVJgLB8HgAJqADfE8XYLX
+2025-06-14 20:15:28,474 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-kompressionnyy-dlya-pe-trub-20-8-sht-1972322546/?at=Eqtk8yj5Vhx77qqqHXgWk8lUVJgLB8HgAJqADfE8XYLX
+2025-06-14 20:15:31,901 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-kompressionnyy-dlya-pe-trub-20-8-sht-1972322546/?at=Eqtk8yj5Vhx77qqqHXgWk8lUVJgLB8HgAJqADfE8XYLX
+2025-06-14 20:15:31,997 - INFO - Обработка товара 76/2340: https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8
+2025-06-14 20:15:31,999 - INFO - Попытка 1/3 обработки https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8
+2025-06-14 20:15:38,402 - WARNING - Ошибка при обработке https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8 (попытка 1): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:15:43,510 - INFO - Попытка 2/3 обработки https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8
+2025-06-14 20:15:50,655 - WARNING - Ошибка при обработке https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8 (попытка 2): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:15:55,767 - INFO - Попытка 3/3 обработки https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8
+2025-06-14 20:16:02,012 - WARNING - Ошибка при обработке https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8 (попытка 3): Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-widget='webProductHeading']")
+
+2025-06-14 20:16:02,014 - ERROR - Не удалось обработать https://ozon.ru/product/1-dyuym-trehhodovoy-t-obraznoy-latunnyy-sharovoy-kran-s-elektroprivodom-s-ruchnym-vyklyuchatelem-1585475430/?asb2=AAMCFbYSExB-xJwpc3tMzScr8-SIwmT0FwayDvgNOJ9LaLdqL2FYwffw0jcyd1FbkVFOCo2gQ9UdsVFKJsMqBXl_puPUZbzaHHAdhD2iFDdgrxzDAydSsyJlJXzot56HYI8 после 3 попыток
+2025-06-14 20:16:02,122 - INFO - Обработка товара 77/2340: https://ozon.ru/product/komplekt-sistemy-kontrolya-protechek-sibling-3-4-1-powerset-zv3-4-1-1604765549/?at=A6tGK05ALc8LAjXAuQMnWXJTxAoL5nTVvWyL5IRJBpvw
+2025-06-14 20:16:02,123 - INFO - Попытка 1/3 обработки https://ozon.ru/product/komplekt-sistemy-kontrolya-protechek-sibling-3-4-1-powerset-zv3-4-1-1604765549/?at=A6tGK05ALc8LAjXAuQMnWXJTxAoL5nTVvWyL5IRJBpvw
+2025-06-14 20:16:07,647 - INFO - Успешно собраны данные для https://ozon.ru/product/komplekt-sistemy-kontrolya-protechek-sibling-3-4-1-powerset-zv3-4-1-1604765549/?at=A6tGK05ALc8LAjXAuQMnWXJTxAoL5nTVvWyL5IRJBpvw
+2025-06-14 20:16:07,692 - INFO - Обработка товара 78/2340: https://ozon.ru/product/gazovyy-kran-sharovoy-3-4-r-g-g-1855364774/?at=PjtJ1gnE8cPyzoKGtYQVqrEiVwEDKPHG7glxXHmXKPg3
+2025-06-14 20:16:07,693 - INFO - Попытка 1/3 обработки https://ozon.ru/product/gazovyy-kran-sharovoy-3-4-r-g-g-1855364774/?at=PjtJ1gnE8cPyzoKGtYQVqrEiVwEDKPHG7glxXHmXKPg3
+2025-06-14 20:16:10,936 - INFO - Успешно собраны данные для https://ozon.ru/product/gazovyy-kran-sharovoy-3-4-r-g-g-1855364774/?at=PjtJ1gnE8cPyzoKGtYQVqrEiVwEDKPHG7glxXHmXKPg3
+2025-06-14 20:16:11,002 - INFO - Обработка товара 79/2340: https://ozon.ru/product/kran-sharovyy-polipropilenovyy-20-latunnyy-shar-ppr-valfex-15sht-2068440778/?at=Y7tjWYX2Ec0DjVjNupP0D5nSq8MBy6cv1Rxm4tlQQkkj
+2025-06-14 20:16:11,002 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-polipropilenovyy-20-latunnyy-shar-ppr-valfex-15sht-2068440778/?at=Y7tjWYX2Ec0DjVjNupP0D5nSq8MBy6cv1Rxm4tlQQkkj
+2025-06-14 20:16:14,148 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-sharovyy-polipropilenovyy-20-latunnyy-shar-ppr-valfex-15sht-2068440778/?at=Y7tjWYX2Ec0DjVjNupP0D5nSq8MBy6cv1Rxm4tlQQkkj
+2025-06-14 20:16:14,202 - INFO - Обработка товара 80/2340: https://ozon.ru/product/kran-polipropilenovyy-kran-sharovoy-ppr-20-2-sht-2093365413/?at=nRtrZwVNAcoq1V26UOvXBV4swmnrZzTjQ5GJAfALVZBR
+2025-06-14 20:16:14,203 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-polipropilenovyy-kran-sharovoy-ppr-20-2-sht-2093365413/?at=nRtrZwVNAcoq1V26UOvXBV4swmnrZzTjQ5GJAfALVZBR
+2025-06-14 20:16:17,649 - INFO - Успешно собраны данные для https://ozon.ru/product/kran-polipropilenovyy-kran-sharovoy-ppr-20-2-sht-2093365413/?at=nRtrZwVNAcoq1V26UOvXBV4swmnrZzTjQ5GJAfALVZBR
+2025-06-14 20:16:17,747 - INFO - Запись данных в products.xlsx
+2025-06-14 20:16:22,490 - INFO - Excel-файл products.xlsx успешно обновлён
+2025-06-14 20:16:22,579 - INFO - Обработка товара 81/2340: https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8
+2025-06-14 20:16:22,579 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8
+2025-06-14 20:16:22,583 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8 (попытка 1): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:27,630 - INFO - Попытка 2/3 обработки https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8
+2025-06-14 20:16:27,634 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8 (попытка 2): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:32,656 - INFO - Попытка 3/3 обработки https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8
+2025-06-14 20:16:32,659 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8 (попытка 3): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:32,660 - ERROR - Не удалось обработать https://ozon.ru/product/kran-sharovoy-latunnyy-oventrop-optibal-1077308-1-vr-g-h-1-nr-sh-polnoprohodnoy-babochka-udlinennaya-1384715287/?at=XQtkPAZoVh6PEYBZtqp98vxtWg3RwkCKDGZ7Jf2NOPn8 после 3 попыток
+2025-06-14 20:16:32,684 - INFO - Обработка товара 82/2340: https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA
+2025-06-14 20:16:32,684 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA
+2025-06-14 20:16:32,687 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA (попытка 1): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:37,727 - INFO - Попытка 2/3 обработки https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA
+2025-06-14 20:16:37,730 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA (попытка 2): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:42,769 - INFO - Попытка 3/3 обработки https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA
+2025-06-14 20:16:42,772 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA (попытка 3): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:42,772 - ERROR - Не удалось обработать https://ozon.ru/product/kran-sharovyy-40-ekoplastik-488341778/?at=XQtkPAZoVhR8QM9QcZR9gAZH5gGWLCl3ngnqixAYkpA после 3 попыток
+2025-06-14 20:16:42,797 - INFO - Обработка товара 83/2340: https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj
+2025-06-14 20:16:42,797 - INFO - Попытка 1/3 обработки https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj
+2025-06-14 20:16:42,800 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj (попытка 1): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:47,827 - INFO - Попытка 2/3 обработки https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj
+2025-06-14 20:16:47,830 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj (попытка 2): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:52,908 - INFO - Попытка 3/3 обработки https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj
+2025-06-14 20:16:52,921 - WARNING - Ошибка при обработке https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj (попытка 3): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:52,922 - ERROR - Не удалось обработать https://ozon.ru/product/kran-polivochnyy-sadovyy-1-2-s-nosikom-so-shtutserom-stalnaya-ruchka-bugatti-1137422243/?at=x6tP58jonsBN5M6zC4r8yQZir76XyDIgGrmv1hRVRmWj после 3 попыток
+2025-06-14 20:16:52,957 - INFO - Обработка товара 84/2340: https://ozon.ru/product/komplekt-sharovyh-kranov-s-amerikankoy-1-s-termometrom-2-sht-vieir-1320322720/?at=qQtJyBvjKc3Q1xZgcj02VROimkWR7jiAgJrVBt5wG4j8
+2025-06-14 20:16:52,957 - INFO - Попытка 1/3 обработки https://ozon.ru/product/komplekt-sharovyh-kranov-s-amerikankoy-1-s-termometrom-2-sht-vieir-1320322720/?at=qQtJyBvjKc3Q1xZgcj02VROimkWR7jiAgJrVBt5wG4j8
+2025-06-14 20:16:52,961 - WARNING - Ошибка при обработке https://ozon.ru/product/komplekt-sharovyh-kranov-s-amerikankoy-1-s-termometrom-2-sht-vieir-1320322720/?at=qQtJyBvjKc3Q1xZgcj02VROimkWR7jiAgJrVBt5wG4j8 (попытка 1): Page.goto: Target page, context or browser has been closed
+2025-06-14 20:16:57,184 - INFO - Получен сигнал прерывания, завершаем работу...
+2025-06-14 20:16:57,403 - INFO - Получен сигнал прерывания, завершаем работу...
