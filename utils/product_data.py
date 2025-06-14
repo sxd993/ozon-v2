@@ -15,16 +15,17 @@ logger = setup_logger()
 async def _get_stars_reviews(
     soup: BeautifulSoup,
 ) -> Tuple[Optional[str], Optional[str]]:
-    """Извлекает рейтинг и количество отзывов."""
+    """Извлекает рейтинг и количество отзывов продавца."""
     try:
         product_statistic = soup.select_one("div[data-widget='webSingleProductScore']")
         if product_statistic and " • " in product_statistic.text:
             stars, reviews = product_statistic.text.strip().split(" • ")
             return stars.strip(), reviews.strip()
         return None, None
-    except Exception as e:
-        logger.warning(f"Ошибка при извлечении рейтинга/отзывов: {e}")
+    except Exception:
         return None, None
+    finally:
+        product_statistic = None
 
 
 async def _get_sale_price(soup: BeautifulSoup) -> Optional[str]:
@@ -43,14 +44,15 @@ async def _get_sale_price(soup: BeautifulSoup) -> Optional[str]:
                     .strip()
                 )
         return None
-    except Exception as e:
-        logger.warning(f"Ошибка при извлечении цены с Ozon Картой: {e}")
+    except Exception:
         return None
-
+    finally:
+        price_element = price_span = None
 
 async def _get_full_prices(soup: BeautifulSoup) -> Tuple[Optional[str], Optional[str]]:
     """Извлекает цену до скидок и без Ozon Карты."""
     try:
+        # Основной вариант через "без Ozon Карты"
         price_element = soup.find(
             "span", string=lambda text: text and "без Ozon Карты" in text
         )
@@ -74,10 +76,35 @@ async def _get_full_prices(soup: BeautifulSoup) -> Tuple[Optional[str], Optional
                     else None
                 )
                 return discount_price, base_price
+
+        # Обходной вариант через data-widget="webPrice"
+        web_price_widget = soup.find("div", {"data-widget": "webPrice"})
+        if web_price_widget:
+            price_spans = web_price_widget.select("div.pm3_27 span")
+            if price_spans:
+                discount_price = (
+                    price_spans[0]
+                    .text.strip()
+                    .replace("\u2009", "")
+                    .replace("₽", "")
+                    .strip()
+                )
+                base_price = (
+                    price_spans[1]
+                    .text.strip()
+                    .replace("\u2009", "")
+                    .replace("₽", "")
+                    .strip()
+                    if len(price_spans) > 1
+                    else None
+                )
+                return discount_price, base_price
+
         return None, None
-    except Exception as e:
-        logger.warning(f"Ошибка при извлечении полной цены: {e}")
+    except Exception:
         return None, None
+    finally:
+        price_element = price_spans = web_price_widget = None
 
 
 async def _get_product_name(soup: BeautifulSoup) -> str:
@@ -138,7 +165,7 @@ async def _get_product_brand(soup: BeautifulSoup) -> Optional[str]:
 
 
 async def get_ozon_seller_info(page: Page) -> Tuple[Optional[str], Optional[str]]:
-    """Извлекает информацию о продавце и ИНН."""
+    """Извлекает информацию о продавце и ИНН из модального окна на странице товара."""
     try:
         seller_block = await page.wait_for_selector(
             "div[data-widget='webCurrentSeller']", timeout=5000, state="attached"
@@ -152,7 +179,7 @@ async def get_ozon_seller_info(page: Page) -> Tuple[Optional[str], Optional[str]
             await button.click()
         except Exception:
             await page.evaluate("button => button.click()", button)
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(0.3)  # Минимальная задержка для модального окна
 
         modal = await page.wait_for_selector(
             "div[data-popper-placement^='top']", timeout=5000, state="visible"
@@ -165,15 +192,18 @@ async def get_ozon_seller_info(page: Page) -> Tuple[Optional[str], Optional[str]
             return None, None
 
         paragraphs = modal_div.find_all("p")
-        seller_details = paragraphs[0].get_text(strip=True) if paragraphs else None
-        inn = paragraphs[1].get_text(strip=True) if len(paragraphs) > 1 else None
+        seller_details = ''
+        for i in range(len(paragraphs) - 2):
+            seller_details1 = paragraphs[i].get_text(strip=True) if paragraphs else None
+            seller_details += seller_details1
+        inn = paragraphs[-2].get_text(strip=True) if paragraphs else None
         return seller_details, inn
-    except Exception as e:
-        logger.warning(f"Ошибка при извлечении информации о продавце: {e}")
+    except Exception:
         return None, None
     finally:
         if "soup" in locals():
             soup.decompose()
+        seller_block = button = modal = modal_div = paragraphs = None
         gc.collect()
 
 

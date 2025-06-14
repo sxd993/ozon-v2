@@ -85,12 +85,6 @@ async def page_down(
             logger.info(f"Достигнуто целевое количество ссылок: {colvo}")
             break
 
-    try:
-        if os.path.exists(temp_file):
-            os.remove(temp_file)
-            logger.debug(f"Временный файл {temp_file} удалён")
-    except Exception as e:
-        logger.warning(f"Ошибка при удалении {temp_file}: {e}")
-
     logger.info(f"Итоговое количество собранных ссылок: {len(collected_links)}")
     return list(collected_links)
+

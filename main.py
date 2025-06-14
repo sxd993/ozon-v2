@@ -16,6 +16,40 @@ def signal_handler(sig, frame):
     sys.exit(0)
 
 
+def compare_links(temp_file: str, processed_file: str, query: str) -> None:
+    """Сравнивает ссылки из temp_links и processed_links, сохраняя необработанные."""
+    try:
+        # Загружаем ссылки из файлов
+        temp_links = load_links_from_file(temp_file)
+        processed_links = load_links_from_file(processed_file)
+        
+        # Приводим ссылки к единому формату (добавляем https://ozon.ru для относительных ссылок)
+        temp_links = [
+            f"https://ozon.ru{link}" if link.startswith("/product/") else link
+            for link in temp_links
+        ]
+        
+        # Находим необработанные ссылки
+        unprocessed_links = [link for link in temp_links if link not in processed_links]
+        
+        if unprocessed_links:
+            logger.warning(f"Найдено {len(unprocessed_links)} необработанных ссылок")
+            for link in unprocessed_links:
+                logger.info(f"Необработанная ссылка: {link}")
+            
+            # Сохраняем необработанные ссылки в файл
+            unprocessed_file = f"unprocessed_links_{query.replace(' ', '_')}.txt"
+            with open(unprocessed_file, "w", encoding="utf-8") as f:
+                for link in unprocessed_links:
+                    f.write(f"{link}\n")
+            logger.info(f"Необработанные ссылки сохранены в {unprocessed_file}")
+        else:
+            logger.info("Все ссылки из temp_links обработаны")
+            
+    except Exception as e:
+        logger.error(f"Ошибка при сравнении ссылок: {e}")
+
+
 async def main(
     query: str, max_products: int, output_file: str, resume: bool, links_file: str = None, progress_handler=None
 ) -> None:
@@ -23,6 +57,7 @@ async def main(
     logger.info(f"Запуск парсера с запросом: {query}, max_products: {max_products}, resume: {resume}, links_file: {links_file}")
     browser = None
     processed_file = f"processed_links_{query.replace(' ', '_')}.txt"
+    temp_file = f"temp_links_{query.replace(' ', '_')}.txt"
     try:
         logger.info("Инициализация браузера")
         page, browser = await preparation_before_work(item_name=query)
@@ -33,7 +68,6 @@ async def main(
             logger.info(f"Загрузка ссылок из файла: {links_file}")
             products_urls_list = load_links_from_file(links_file)
         else:
-            temp_file = f"temp_links_{query.replace(' ', '_')}.txt"
             products_urls_list = await page_down(
                 page=page,
                 css_selector="a[href*='/product/']",
@@ -68,6 +102,11 @@ async def main(
             processed_file=processed_file,
         )
         logger.info(f"Excel-файл сохранён: {output_file}")
+
+        # Сравниваем ссылки после парсинга
+        if os.path.exists(temp_file) and os.path.exists(processed_file):
+            compare_links(temp_file, processed_file, query)
+            
     except Exception as e:
         logger.error(f"Критическая ошибка в main: {e}")
         raise
@@ -84,7 +123,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--max-products",
         type=int,
-        default=0,
+        default=10,
         help="Максимальное количество продуктов (0 для всех)",
     )
     parser.add_argument(
